@@ -1,0 +1,33 @@
+.nav{
+  height: 80px;
+  background-color: #282c34;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  .logo{
+    width: 80px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .mainNav{
+    width: 50%;
+    height: 100%;
+  }
+  ul {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+
+    a {
+      color: white;
+      text-decoration: none;
+    }
+  }
+  ul:last-child{
+    padding-right: 50px;
+  }
+}
