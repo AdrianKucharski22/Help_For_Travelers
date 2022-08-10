@@ -1,30 +1,41 @@
 @import "../variables/variabes";
-main{
+.main {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
-  div{
-    padding: 20px;
-    margin: 20px;
-    border: 2px $main-background solid;
-    border-radius: 20px;
-    a{
-      text-decoration: none;
-      color: $main-background;
-      text-transform: uppercase;
+  flex-direction: column;
+  padding-top: 20px;
+  main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    div {
+      padding: 20px;
+      margin: 20px;
+      border: 2px $main-background solid;
+      border-radius: 20px;
+
+      a {
+        text-decoration: none;
+        color: $main-background;
+        text-transform: uppercase;
+      }
+
+      p {
+        display: flex;
+        text-align: center;
+        height: 50%;
+        justify-content: center;
+        align-items: center;
+      }
+
+      img {
+        height: 60%;
+        box-sizing: border-box;
+      }
     }
-    p{
-      display: flex;
-      text-align: center;
-      height: 50%;
-      justify-content: center;
-      align-items: center;
-    }
-    img{
-      height: 60%;
-      box-sizing: border-box;
-    }
-  };
+  ;
+  }
 }

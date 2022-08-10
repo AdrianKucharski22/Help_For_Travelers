@@ -1,0 +1,52 @@
+@import "../variables/variabes";
+.countryPage{
+  display: flex;
+  flex-direction: column;
+  max-width: 99vw;
+  .border{
+    border-bottom: 2px solid orangered;
+    margin: 0 20px;
+    padding: 10px;
+  }
+  .flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .countryNav{
+    flex-direction: row;
+    justify-content: space-between;
+    .leftInfo{
+      flex-direction: column;
+    }
+  }
+  .intoCountry{
+    justify-content: center;
+
+  }
+  .speedLimitations{
+    flex-wrap: wrap;
+    div{
+      flex-direction: column;
+      .signs{
+        flex-direction: row;
+      }
+    }
+  }
+  .driveAfterDrink{
+    flex-direction: row;
+    justify-content: flex-start;
+  div{
+    margin-left: 20px;
+  }
+  }
+  h1{
+     font-size: 40px;
+   }
+  p{
+    margin: 10px;
+  }
+  img{
+    width: 100px;
+  }
+}

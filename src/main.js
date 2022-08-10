@@ -1,8 +1,9 @@
 import './App.css';
 import Flags from "./Components/Flags";
+import Userthings from "./Components/user";
 import React from "react";
-
-
+import Holandia from "./Components/holandia";
+import Niemcy from "./Components/niemcy";
 function MainPage() {
     return (
         <div className={"App"}>
@@ -13,14 +14,23 @@ function MainPage() {
                     </div>
                     <div className="mainNav">
                         <ul>
-                            <a href="#"><li>tak</li></a>
-                            <a href="#"><li>nie</li></a>
-                            <a href="#"><li>nwm</li></a>
-                            <a href="#user"><li>User</li></a>
+                            <a href="#"><li>Wybór Państwa</li></a>
+                            <a href="#"><li>Opinie</li></a>
+                            <a href="#"><li>Kontakt</li></a>
+                            <Userthings/>
                         </ul>
+                        <div className={"userOptionsDiv"}>
+                        <ul className={'userOptions'}>
+                            <a><li>Ustawienia</li></a>
+                            <a><li>Ulubione Państwa</li></a>
+                        </ul>
+                        </div>
                     </div>
                 </section>
                 <section className="main">
+                    <h1>Wybierz państwo</h1>
+                    <Holandia/>
+                    <Niemcy/>
                     <main>
                         <Flags />
                     </main>
@@ -31,7 +41,7 @@ function MainPage() {
                         <p>Name</p>
                     </div>
                     <div className='coments'>
-                        <h2>Sekcja komentarzy</h2>
+                        <h2>Wyślij Opinie</h2>
                         <textarea  name="" id="" ></textarea>
                     </div>
                     <div className='marks'>
