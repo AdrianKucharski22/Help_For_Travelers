@@ -12,6 +12,9 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    @media (max-width: 900px) {
+      flex-direction: column;
+    }
   }
   .countryNav{
     flex-direction: row;
@@ -24,8 +27,16 @@
     justify-content: center;
 
   }
+  .safety{
+    @media (max-width: 900px) {
+      flex-direction: column;
+    }
+  }
   .speedLimitations{
     flex-wrap: wrap;
+    @media (max-width: 900px) {
+      flex-direction: column;
+    }
     div{
       flex-direction: column;
       .signs{
@@ -48,5 +59,6 @@
   }
   img{
     width: 100px;
+    margin: 5px;
   }
 }

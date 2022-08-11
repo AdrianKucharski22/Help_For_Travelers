@@ -10,21 +10,16 @@ function Niemcy(){
                     <h1>Niemcy</h1>
                 </div>
                 <div className={'leftInfo flex'}>
-                    <div>
                     <p>Europejski NumerAlarmowy</p>
                     <h2>112</h2>
-                    </div>
-                    <div>
                     <p>Policja</p>
                     <h2>110 lub 112</h2>
-                    </div>
                 </div>
             </nav>
             <div>
                 <div className={'intoCountry border flex'}>
                     <h4>
-                        Wjazd do kraju<br/>
-                        Polskie prawo jazdy
+                        Wjazd do kraju
                     </h4>
                     <p>
                         Na podstawi paszportu lub dowodu osobistego.Swobodny przepływ osób w ramach UE oraz
@@ -37,7 +32,6 @@ function Niemcy(){
                 <h4>
                     Ograniczenia prędkości
                 </h4>
-                icona
                 <div className={'signs flex'}>
                     <h4>Teren Zabudowany</h4>
                     <div className={' flex'}>
@@ -93,13 +87,13 @@ function Niemcy(){
                 </div>
             </div>
             <div className={'safety border flex'}>
-                icoka kasku
+                <img src={"/helmet.svg"}/>
                 <p>obowiązek posiadania kasku dla wszystkich rodzajów motocykli , quadów itp</p>
-                ikona w pasach
+                <img src={"/pasy.webp"}/>
                 <p>obowiązek zapinania pasów bezpieczeństwa na wszystkich siedzeniach samochodu</p>
-                ikona dziecka
+                <img src={"/baby.png"}/>
                 <p>obowiązek używania fotelików lub siedzisk do 12 lat lub 150cm dzieci do lat 3 wyłącznie na tylnym siedzeniu</p>
-                ikona zakazu rozmowy przez tel
+                <img src={"/tel.webp"}/>
                 <p>zakaz rozmawiania podczas jazdy przez telefon komórkowy bez zestawu głośno mówiącego</p>
             </div>
             <div className={'caution border flex'}>

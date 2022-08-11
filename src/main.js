@@ -7,30 +7,28 @@ import Niemcy from "./Components/niemcy";
 function MainPage() {
     return (
         <div className={"App"}>
-            <>
-                <section className="nav">
-                    <div className="logo">
-                        <h1>DriveSafe</h1>
-                    </div>
-                    <div className="mainNav">
-                        <ul>
-                            <a href="#"><li>Wybór Państwa</li></a>
-                            <a href="#"><li>Opinie</li></a>
-                            <a href="#"><li>Kontakt</li></a>
+                    <section className="top-nav nav" name="viewport" content="width=device-width, initial-scale=1">
+                        <div className="logo">
+                            <h1>DriveSafe</h1>
+                        </div>
+                        <input id="menu-toggle" type="checkbox"/>
+                        <label className='menu-button-container' htmlFor="menu-toggle">
+                            <div className='menu-button'></div>
+                        </label>
+                        <ul className="menu">
                             <Userthings/>
                         </ul>
-                        <div className={"userOptionsDiv"}>
-                        <ul className={'userOptions'}>
-                            <a><li>Ustawienia</li></a>
-                            <a><li>Ulubione Państwa</li></a>
-                        </ul>
-                        </div>
-                    </div>
-                </section>
+                    </section>
+                {/*<section className="nav">*/}
+                {/*    <div */}
+                {/*        /}
+                {/*    </div>*/}
+                {/*    */}
+                {/*</section>*/}
                 <section className="main">
-                    <h1>Wybierz państwo</h1>
                     <Holandia/>
                     <Niemcy/>
+                    <h1>Wybierz państwo</h1>
                     <main>
                         <Flags />
                     </main>
@@ -51,7 +49,6 @@ function MainPage() {
                 <section className='footer'>
                     <p>Opis i info i kontakt</p>
                 </section>
-            </>
         </div>
     );
 }

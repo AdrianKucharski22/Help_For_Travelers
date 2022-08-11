@@ -1,35 +1,31 @@
 import "../styles/main.scss"
-import React, {useRef, useEffect} from 'react';
-const userOptions = document.querySelector(".userOptions")
-// userOptions.style.display = 'none'
+import React, {useState} from 'react';
 
-const UserThings= () => {
-    const ref = useRef(null);
+export default function Userthings() {
+    const [isShown, setIsShown] = useState(false);
 
-    useEffect(() => {
-        const HandleClick = ()=> {
-            // if (userOptions.style.display ==="none"){
-            //     userOptions.style.display = 'block';
-            //     return false;
-            // }
-            // else if (userOptions.style.display ==="block"){
-            //     userOptions.style.display = 'none';
-            //     return true;
-            // }
-        };
-        const element = ref.current;
+    const handleClick = event => {
+        setIsShown(current => !current);
+    };
 
-        element.addEventListener('click', HandleClick);
-
-        return () => {
-            element.removeEventListener('click', HandleClick);
-        };
-    }, []);
     return (
-        <>
-            <a href="#" ref={ref} className={"user"}><li>User</li></a>
-        </>
-    );
-};
+        <div>
+                    <a href="#"><li>Wybór Państwa</li></a>
+                    <a href="#"><li>Opinie</li></a>
+                    <a href="#"><li>Kontakt</li></a>
+                    <a href="#" onClick={handleClick}><li>User</li></a>
 
- export default UserThings;
+
+            {isShown && (
+                <div className={"userOptionsDiv"}>
+                    <ul className={'userOptions'}>
+                        <a><li>Ustawienia</li></a>
+                        <a><li>Ulubione Państwa</li></a>
+                        <a><li>Wyloguj</li></a>
+                    </ul>
+                </div>
+            )}
+        </div>
+    );
+}
+

@@ -1,6 +1,5 @@
 import React from "react"
 import "../styles/main.scss"
-
     function Flags() {
             return (
                 <>
@@ -10,12 +9,14 @@ import "../styles/main.scss"
                             <p>belgia</p>
                         </a>
                     </div>
-                    <div className={'flag'}>
-                        <a href={"#"} className={'holandia'}>
-                            <img src='flaga' alt={'flaga niemiec'}/>
-                            <p>holadnia</p>
-                        </a>
-                    </div>
+                    <>
+                        <div className={'flag'}>
+                            <a href={"#"} className={'holandia'}>
+                                <img src='/flaga-holandia.webp' alt={'flaga niemiec'}/>
+                                <p>holadnia</p>
+                            </a>
+                        </div>
+                    </>
                     <div className={'flag'}>
                         <a href={"#"} className={'wlochy'}>
                             <img src='flaga' alt={'flaga niemiec'}/>
