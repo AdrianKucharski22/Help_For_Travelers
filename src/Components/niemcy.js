@@ -6,7 +6,7 @@ function Niemcy(){
         <div className={'countryPage'}>
             <nav className={'countryNav border flex'}>
                 <div className={'flex'}>
-                    <img src={"/flaga_niemiec.png"} alt={'Holandia'}/>
+                    <img src="flaga.png" alt={'Holandia'}/>
                     <h1>Niemcy</h1>
                 </div>
                 <div className={'leftInfo flex'}>

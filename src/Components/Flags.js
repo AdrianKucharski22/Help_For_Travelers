@@ -1,137 +1,19 @@
 import React from "react"
 import "../styles/main.scss"
+import Holandia from "./holandia";
     function Flags() {
-            return (
+        const countryes = ["Holandia","Niemcy","Polska","Francja","Włochy","Czechy","Słowacja","Norwegia","Węgry","Szwecja","Szwajcaria","Słowenia","Portugalia","Norwegia","Łotwa","Litwa","Hiszpania","Grecja","Finlandia","Estonia","Dania","Czarnogóra","Chorwacja","Bułgaria","Austria"]
+        const couuntresImg = ["Holandia","flaga.png","Polska","Francja","Włochy","Czechy","Słowacja","Norwegia","Węgry","Szwecja","Szwajcaria","Słowenia","Portugalia","Norwegia","Łotwa","Litwa","Hiszpania","Grecja","Finlandia","Estonia","Dania","Czarnogóra","Chorwacja","Bułgaria","Austria"]
+            return(
                 <>
-                    <div className={'flag'}>
-                        <a href={"#"} className={'belgia'}>
-                            <img src='flaga' alt={'flaga niemiec'}/>
-                            <p>belgia</p>
+                    {countryes.map(countryes =>(
+                    <div className={countryes} kay={countryes}>
+                        <a href={countryes}  className={countryes}>
+                            <img src='./flaga.png' alt={countryes}/>
+                            <p>{countryes}</p>
                         </a>
                     </div>
-                    <>
-                        <div className={'flag'}>
-                            <a href={"#"} className={'holandia'}>
-                                <img src='/flaga-holandia.webp' alt={'flaga niemiec'}/>
-                                <p>holadnia</p>
-                            </a>
-                        </div>
-                    </>
-                    <div className={'flag'}>
-                        <a href={"#"} className={'wlochy'}>
-                            <img src='flaga' alt={'flaga niemiec'}/>
-                            <p>Włochy</p>
-                        </a>
-                    </div>
-                    <div className={'flag'}>
-                        <a href={"#"} className={'polska'}>
-                            <img src='/flaga_niemiec.png' alt={'flaga niemiec'}/>
-                            <p>Polska</p>
-                        </a>
-                    </div>
-                    <div className={'flag'}>
-                        <a href={"#"}>
-                            <img src='/flaga_niemiec.png' alt={'flaga niemiec'}/>
-                            <p>niemcy</p>
-                        </a>
-                    </div>
-                    <div className={'flag'}>
-                        <a href={"#"} className={'francja'}>
-                            <img src='/flaga_niemiec.png' alt={'flaga niemiec'}/>
-                            <p>francja</p>
-                        </a>
-                    </div>
-                    <div className={'flag'}>
-                        <a href={"#"} className={'czechy'}>
-                            <img src='/flaga_niemiec.png' alt={'flaga niemiec'}/>
-                            <p>Czechy</p>
-                        </a>
-                    </div>
-                    <div className={'flag'}>
-                        <a href={"#"}>
-                            <img src='/flaga_niemiec.png' alt={'flaga niemiec'}/>
-                            <p>niemcy</p>
-                        </a>
-                    </div>
-                    <div className={'flag'}>
-                        <a href={"#"}>
-                            <img src='/flaga_niemiec.png' alt={'flaga niemiec'}/>
-                            <p>niemcy</p>
-                        </a>
-                    </div>
-                    <div className={'flag'}>
-                        <a href={"#"}>
-                            <img src='/flaga_niemiec.png' alt={'flaga niemiec'}/>
-                            <p>niemcy</p>
-                        </a>
-                    </div>
-                    <div className={'flag'}>
-                        <a href={"#"}>
-                            <img src='/flaga_niemiec.png' alt={'flaga niemiec'}/>
-                            <p>niemcy</p>
-                        </a>
-                    </div>
-                    <div className={'flag'}>
-                        <a href={"#"}>
-                            <img src='/flaga_niemiec.png' alt={'flaga niemiec'}/>
-                            <p>niemcy</p>
-                        </a>
-                    </div>
-                    <div className={'flag'}>
-                        <a href={"#"}>
-                            <img src='/flaga_niemiec.png' alt={'flaga niemiec'}/>
-                            <p>niemcy</p>
-                        </a>
-                    </div>
-                    <div className={'flag'}>
-                        <a href={"#"}>
-                            <img src='/flaga_niemiec.png' alt={'flaga niemiec'}/>
-                            <p>niemcy</p>
-                        </a>
-                    </div>
-                    <div className={'flag'}>
-                        <a href={"#"}>
-                            <img src='/flaga_niemiec.png' alt={'flaga niemiec'}/>
-                            <p>niemcy</p>
-                        </a>
-                    </div>
-                    <div className={'flag'}>
-                        <a href={"#"}>
-                            <img src='/flaga_niemiec.png' alt={'flaga niemiec'}/>
-                            <p>niemcy</p>
-                        </a>
-                    </div>
-                    <div className={'flag'}>
-                        <a href={"#"}>
-                            <img src='/flaga_niemiec.png' alt={'flaga niemiec'}/>
-                            <p>niemcy</p>
-                        </a>
-                    </div>
-                    <div className={'flag'}>
-                        <a href={"#"}>
-                            <img src='/flaga_niemiec.png' alt={'flaga niemiec'}/>
-                            <p>niemcy</p>
-                        </a>
-                    </div>
-                    <div className={'flag'}>
-                        <a href={"#"}>
-                            <img src='/flaga_niemiec.png' alt={'flaga niemiec'}/>
-                            <p>niemcy</p>
-                        </a>
-                    </div>
-                    <div className={'flag'}>
-                        <a href={"#"}>
-                            <img src='/flaga_niemiec.png' alt={'flaga niemiec'}/>
-                            <p>niemcy</p>
-                        </a>
-                    </div>
-                    <div className={'flag'}>
-                        <a href={"#"}>
-                            <img src='/flaga_niemiec.png' alt={'flaga niemiec'}/>
-                            <p>niemcy</p>
-                        </a>
-                    </div>
-
+                        ))}
                 </>
             )
     }

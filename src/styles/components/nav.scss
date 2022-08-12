@@ -48,10 +48,31 @@
     }
 
   }
+  .coutryNav{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 80px;
+    a{
+      background-color: #242424;
+    }
+
+    @media (max-width: 900px) {
+      top: 160px;
+    }
+  }
   .userOptionsDiv{
     display: flex;
     justify-content: flex-end;
     flex-wrap: wrap;
+    flex-direction: column;
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 50%;
+    @media (max-width: 900px) {
+        top: 160px;
+      }
 
     .userOptions {
       color: white;
@@ -116,7 +137,7 @@
   }
 
   #menu-toggle:checked + .menu-button-container .menu-button::before {
-    margin-top: 0px;
+    margin-top: 0;
     transform: rotate(405deg);
   }
 
@@ -125,10 +146,9 @@
   }
 
   #menu-toggle:checked + .menu-button-container .menu-button::after {
-    margin-top: 0px;
+    margin-top: 0;
     transform: rotate(-405deg);
   }
-
   @media (max-width: 900px) {
     .menu-button-container {
       display: flex;

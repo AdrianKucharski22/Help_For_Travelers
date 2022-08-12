@@ -9,8 +9,10 @@ function Holandia(){
                 <img src={"/flaga-holandia.webp"} alt={'Holandia'} className={'holandia'}/>
                 <h1>Holandia</h1>
               </div>
+              <div>
+                  <button onClick={Holandia}>Powrót</button>
+              </div>
               <div className={'leftInfo flex'}>
-                  telefonikona
                   <p>Europejski NumerAlarmowy</p>
                   <h2>112</h2>
               </div>

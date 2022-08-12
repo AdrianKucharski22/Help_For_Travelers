@@ -2,6 +2,7 @@ import './App.css';
 import Flags from "./Components/Flags";
 import Userthings from "./Components/user";
 import React from "react";
+import {Link} from "react-router-dom";
 import Holandia from "./Components/holandia";
 import Niemcy from "./Components/niemcy";
 function MainPage() {
@@ -19,14 +20,8 @@ function MainPage() {
                             <Userthings/>
                         </ul>
                     </section>
-                {/*<section className="nav">*/}
-                {/*    <div */}
-                {/*        /}
-                {/*    </div>*/}
-                {/*    */}
-                {/*</section>*/}
                 <section className="main">
-                    <Holandia/>
+                    {/*<Holandia/>*/}
                     <Niemcy/>
                     <h1>Wybierz państwo</h1>
                     <main>
