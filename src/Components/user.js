@@ -2,7 +2,7 @@ import "../styles/main.scss"
 import React, {useState} from 'react';
 
 export default function Userthings() {
-    const countryes = ["Holandia","Niemcy","Polska","Francja","Włochy","Czechy","Słowacja","Norwegia","Węgry","Szwecja","Szwajcaria","Słowenia","Portugalia","Norwegia","Łotwa","Litwa","Hiszpania","Grecja","Finlandia","Estonia","Dania","Czarnogóra","Chorwacja","Bułgaria","Austria"]
+    const countryes = ["Holandia","Niemcy","Polska","Francja","Wlochy","Czechy","Slowacja","Norwegia","Wegry","Szwecja","Szwajcaria","Slowenia","Portugalia","Norwegia","Lotwa","Litwa","Hiszpania","Grecja","Finlandia","Estonia","Dania","Czarnogora","Chorwacja","Bulgaria","Austria"]
     const [isShownUser, setIsShown] = useState(false);
 
     const handleClick = event => {
@@ -33,7 +33,7 @@ export default function Userthings() {
             )}
             {isShownCountry &&(
                 <div className={"coutryNav"}>
-                    <a href={'main'}><li>Główna</li></a>
+                    <a href={'/'}><li>Główna</li></a>
                     {countryes.map(countryes =>(
                         <a href={countryes}><li>{countryes}</li></a>
                     ))}

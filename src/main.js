@@ -5,45 +5,34 @@ import React from "react";
 import {Link} from "react-router-dom";
 import Holandia from "./Components/holandia";
 import Niemcy from "./Components/niemcy";
+
 function MainPage() {
     return (
         <div className={"App"}>
-                    <section className="top-nav nav" name="viewport" content="width=device-width, initial-scale=1">
-                        <div className="logo">
-                            <h1>DriveSafe</h1>
-                        </div>
-                        <input id="menu-toggle" type="checkbox"/>
-                        <label className='menu-button-container' htmlFor="menu-toggle">
-                            <div className='menu-button'></div>
-                        </label>
-                        <ul className="menu">
-                            <Userthings/>
-                        </ul>
-                    </section>
-                <section className="main">
-                    {/*<Holandia/>*/}
-                    <Niemcy/>
-                    <h1>Wybierz państwo</h1>
-                    <main>
-                        <Flags />
-                    </main>
-                </section>
-                <section className='userThoughts'>
-                    <div className='username'>
-                        <h2>Twoje imię</h2>
-                        <p>Name</p>
-                    </div>
-                    <div className='coments'>
-                        <h2>Wyślij Opinie</h2>
-                        <textarea  name="" id="" ></textarea>
-                    </div>
-                    <div className='marks'>
-                        <h2>Ocena</h2>
-                    </div>
-                </section>
-                <section className='footer'>
-                    <p>Opis i info i kontakt</p>
-                </section>
+            <section className="main">
+                {/*<Holandia/>*/}
+                {/*<Niemcy/>*/}
+                <h1>Wybierz państwo</h1>
+                <main>
+                    <Flags/>
+                </main>
+            </section>
+            <section className='userThoughts'>
+                <div className='username'>
+                    <h2>Twoje imię</h2>
+                    <p>Name</p>
+                </div>
+                <div className='coments'>
+                    <h2>Wyślij Opinie</h2>
+                    <textarea name="" id=""></textarea>
+                </div>
+                <div className='marks'>
+                    <h2>Ocena</h2>
+                </div>
+            </section>
+            <section className='footer'>
+                <p>Opis i info i kontakt</p>
+            </section>
         </div>
     );
 }

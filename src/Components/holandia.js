@@ -1,5 +1,3 @@
-import React from "react"
-import "../styles/main.scss"
 
 function Holandia(){
     return(
@@ -8,9 +6,6 @@ function Holandia(){
               <div className={'flex'}>
                 <img src={"/flaga-holandia.webp"} alt={'Holandia'} className={'holandia'}/>
                 <h1>Holandia</h1>
-              </div>
-              <div>
-                  <button onClick={Holandia}>Powrót</button>
               </div>
               <div className={'leftInfo flex'}>
                   <p>Europejski NumerAlarmowy</p>

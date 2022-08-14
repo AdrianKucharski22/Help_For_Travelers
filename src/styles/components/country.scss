@@ -7,6 +7,10 @@
     border-bottom: 2px solid orangered;
     margin: 0 20px;
     padding: 10px;
+    .moto, .cars{
+      border-bottom: 2px orange solid;
+      text-align: center;
+    }
   }
   .flex{
     display: flex;
@@ -16,11 +20,23 @@
       flex-direction: column;
     }
   }
+
   .countryNav{
     flex-direction: row;
     justify-content: space-between;
-    .leftInfo{
+    .leftInfo {
+      flex-direction: row;
+      @media (max-width: 760px) {
       flex-direction: column;
+      }
+      .alarm {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 100px;
+
+      }
     }
   }
   .intoCountry{

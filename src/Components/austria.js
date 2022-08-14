@@ -1,19 +1,17 @@
 import React from "react"
 import "../styles/main.scss"
 
-function Niemcy(){
+function Austria(){
     return(
-        <div className={'countryPage'}>
+        <div className={'countryPage austria'}>
             <nav className={'countryNav border flex'}>
                 <div className={'flex'}>
-                    <img src="flaga-niemcy.png" alt={'Holandia'}/>
-                    <h1>Niemcy</h1>
+                    <img src={"/flaga-austria.webp"} alt={'austria'} className={'austria'}/>
+                    <h1>Austria</h1>
                 </div>
                 <div className={'leftInfo flex'}>
                     <p>Europejski NumerAlarmowy</p>
                     <h2>112</h2>
-                    <p>Policja</p>
-                    <h2>110 lub 112</h2>
                 </div>
             </nav>
             <div>
@@ -47,8 +45,9 @@ function Niemcy(){
                 <div className={'signs flex'}>
                     <h4>Autostrady i drogi ekspresowe</h4>
                     <div className={'signs flex'}>
+                        <img src={'/100.jpg'} alt={'100km/h'}/>
+                        <img src={'/120.jpg'} alt={'120km/h'}/>
                         <img src={'/130.jpg'} alt={'130km/h'}/>
-                        <p>Prędkość Zalecana</p>
                     </div>
                 </div>
             </div>
@@ -58,14 +57,11 @@ function Niemcy(){
                 </h4>
                 <div>
                     <p>
-                        Autostrady w Niemczech są bezpłatne.
+                        Korzystanie z dróg szybkiego ruchu na terenie królestwa Niderlandów jest bezpłatne.
                     </p>
                     <p>
-                        W niektórych miastach zostały wprowadzone strefy ekologiczne (oznaczone znakami drogowymi
-                        z napisem Umweltzone).Prawo wjazdu do nich, mają jedynie samochody osobowe i ciężarowe oznaczone
-                        specjalną czerwoną , żółtą lub zieloną plakietka z wpisanym numerem rejestracyjnym.
-                        Plakietki za ok. 6E można nabyć w urzędach komunikacji ,na stacjach diagnostycznych oraz autostradowych
-                        warsztatach na terenie Niemiec. Szczegółowe informacje na temat stref można znaleźć na stronie internetowej.
+                        Opłat można spodziewac się jedynie za przejazd niektórymi tunelamu np.Dordse Kill w regionie
+                        Biesbosch (ok 2E) i Westerschelde między wyspą Zeeland a trasą Baarland-Temeuzen(ok 3E)
                     </p>
                 </div>
             </div>
@@ -81,20 +77,28 @@ function Niemcy(){
                         <p>Dla kierowców doświadczonych</p>
                     </div>
                     <div>
-                        <h2>0,0%</h2>
-                        <p>Dla kierowców początkujących (do 21 roku życia lub posiadających prawo jazdy krócej niż 2 lata)</p>
+                        <h2>0,2%</h2>
+                        <p>Dla kierowców początkujących posiadających prawo jazdy krócej niż 5 lat</p>
                     </div>
                 </div>
             </div>
             <div className={'safety border flex'}>
-                <img src={"/helmet.svg"}/>
-                <p>obowiązek posiadania kasku dla wszystkich rodzajów motocykli , quadów itp</p>
-                <img src={"/pasy.webp"}/>
-                <p>obowiązek zapinania pasów bezpieczeństwa na wszystkich siedzeniach samochodu</p>
-                <img src={"/baby.png"}/>
-                <p>obowiązek używania fotelików lub siedzisk do 12 lat lub 150cm dzieci do lat 3 wyłącznie na tylnym siedzeniu</p>
-                <img src={"/tel.webp"}/>
-                <p>zakaz rozmawiania podczas jazdy przez telefon komórkowy bez zestawu głośno mówiącego</p>
+                <div className={'flex'}>
+                    <img src={"/helmet.svg"}/>
+                    <p>obowiązek posiadania kasku dla wszystkich rodzajów motocykli , quadów itp</p>
+                </div>
+                <div className={'flex'}>
+                    <img src={"/pasy.webp"}/>
+                    <p>obowiązek zapinania pasów bezpieczeństwa na wszystkich siedzeniach samochodu</p>
+                </div>
+                <div className={'flex'}>
+                    <img src={"/baby.png"}/>
+                    <p>obowiązek używania fotelików lub siedzisk do 12 lat lub 150cm dzieci do lat 3 wyłącznie na tylnym siedzeniu</p>
+                </div>
+                <div className={'flex'}>
+                    <img src={"/tel.webp"}/>
+                    <p>zakaz rozmawiania podczas jazdy przez telefon komórkowy bez zestawu głośno mówiącego</p>
+                </div>
             </div>
             <div className={'caution border flex'}>
                 <h4>Uwaga</h4>
@@ -117,4 +121,4 @@ function Niemcy(){
         </div>
     );
 }
-export default Niemcy
+export default Austria
