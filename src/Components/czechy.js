@@ -3,15 +3,29 @@ import "../styles/main.scss"
 
 function Czechy(){
     return(
-        <div className={'countryPage holandia'}>
+        <div className={'countryPage czechy'}>
             <nav className={'countryNav border flex'}>
                 <div className={'flex'}>
-                    <img src={"/flaga-holandia.webp"} alt={'Holandia'} className={'holandia'}/>
-                    <h1>Holandia</h1>
+                    <img src={"/flaga-czechy.png"} alt={'Czechy'} className={'czechy'}/>
+                    <h1>Czechy</h1>
                 </div>
                 <div className={'leftInfo flex'}>
-                    <p>Europejski NumerAlarmowy</p>
-                    <h2>112</h2>
+                    <div className={'alarm'}>
+                        <p>Europejski Numer Alarmowy</p>
+                        <h2>112</h2>
+                    </div>
+                    <div className={'alarm'}>
+                        <p>Policja</p>
+                        <h2>158</h2>
+                    </div>
+                    <div className={'alarm'}>
+                        <p>Pogotowie ratunkowe</p>
+                        <h2>155</h2>
+                    </div>
+                    <div className={'alarm'}>
+                        <p>Pogotowie ratunkowe</p>
+                        <h2>150</h2>
+                    </div>
                 </div>
             </nav>
             <div>
@@ -20,8 +34,8 @@ function Czechy(){
                         Wjazd do kraju
                     </h4>
                     <p>
-                        Na podstawi paszportu lub dowodu osobistego.Swobodny przepływ osób w ramach UE oraz
-                        EuropejskiegoObszaru Gospodarczego.
+                        Na podstawie paszportu lub dowodu osobistego.Swobodny przepływ osób w ramach UE oraz
+                        Europejskiego Obszaru Gospodarczego.
                         Polskie prawo jazdy jest honorowane.
                     </p>
                 </div>
@@ -39,14 +53,20 @@ function Czechy(){
                 <div className={'signs flex'}>
                     <h4>Teren Niezabudowany</h4>
                     <div>
+                        <img src={'/90.png'} alt={'80km/h'}/>
+                    </div>
+                </div>
+                <div className={'signs flex'}>
+                    <h4>Drogi ekspresowe</h4>
+                    <div className={'signs flex'}>
+                        <img src={'/110.jpg'} alt={'110km/h'}/>
                         <img src={'/80.jpg'} alt={'80km/h'}/>
                     </div>
                 </div>
                 <div className={'signs flex'}>
                     <h4>Autostrady i drogi ekspresowe</h4>
                     <div className={'signs flex'}>
-                        <img src={'/100.jpg'} alt={'100km/h'}/>
-                        <img src={'/120.jpg'} alt={'120km/h'}/>
+                        <img src={'/80.jpg'} alt={'80km/h'}/>
                         <img src={'/130.jpg'} alt={'130km/h'}/>
                     </div>
                 </div>
@@ -57,11 +77,42 @@ function Czechy(){
                 </h4>
                 <div>
                     <p>
-                        Korzystanie z dróg szybkiego ruchu na terenie królestwa Niderlandów jest bezpłatne.
+                        Na podstawie drogami szybkiego ruchu i autostradami konieczne jest wykupienie winiety dla pojazdów do 3,5t dostępne są:
                     </p>
                     <p>
-                        Opłat można spodziewac się jedynie za przejazd niektórymi tunelamu np.Dordse Kill w regionie
-                        Biesbosch (ok 2E) i Westerschelde między wyspą Zeeland a trasą Baarland-Temeuzen(ok 3E)
+                        <div className={'flex moto'}>
+                            <div>
+                                <h4>Motocykle</h4>
+                            </div>
+                            <div>
+                                <p>są zwolnione z opłat za przejady autostradami i drogami ekspresowymi</p>
+                            </div>
+                        </div>
+                        <div  className={'flex cars'}>
+                            <div>
+                                <h4>kategoria B</h4>
+                            </div>
+                            <div>
+                                <h4>10-dniowa:</h4>
+                                <p>310 CZK</p>
+                            </div>
+                            <div>
+                                <h4>Miesięczna</h4>
+                                <p>440 CZK</p>
+                            </div>
+                            <div>
+                                <h4>Roczna</h4>
+                                <p>1500 CZK</p>
+                            </div>
+                        </div>
+                        <p>
+                            Naklejenie winiety na przedniej szynie pojazdu musi być zgodne z instukcją zawartą na naklejce.
+                        </p>
+                        <p>
+                            Jest ona nieważna w przypadku: braku lub niewłaściwego wypełnienia winiety, braku odcinka kontrolnego nie naklejenia na szybie
+                        </p>
+                        <p>Winiety można kupić elektroniczne, na przejściach granicznych, stacjach benzynowych lub w urzędach pocztowych.</p>
+                        <p>Szczegóły:<a href={'https://edalnice.cz/pl/index.html#/validation'} target={'_blank'}>edalnice.cz/pl/index.html#/validation</a></p>
                     </p>
                 </div>
             </div>
@@ -71,14 +122,9 @@ function Czechy(){
                 </h4>
                 <div>
                     <div>
-                        <h2>
-                            0,5%
-                        </h2>
-                        <p>Dla kierowców doświadczonych</p>
-                    </div>
-                    <div>
-                        <h2>0,2%</h2>
-                        <p>Dla kierowców początkujących posiadających prawo jazdy krócej niż 5 lat</p>
+                        <h2>0,0%</h2>
+                        <p>Zawartość alkocholu we krwi powyżej 0.0% może zostać ukarana mandatem oraz zakazaniem prowadzenia pojazdów na terenie Czech na okres 2 lat. Kierujący odmawiający badania na zawartość
+                            alkoholu we krwi traktowany jest jako osoba będąca pod wpływem alkoholu</p>
                     </div>
                 </div>
             </div>
@@ -93,7 +139,7 @@ function Czechy(){
                 </div>
                 <div className={'flex'}>
                     <img src={"/baby.png"}/>
-                    <p>obowiązek używania fotelików lub siedzisk do 12 lat lub 150cm dzieci do lat 3 wyłącznie na tylnym siedzeniu</p>
+                    <p>obowiązek używania fotelików lub siedzisk do 150cm lub 36kg) na przednim siedzeniu</p>
                 </div>
                 <div className={'flex'}>
                     <img src={"/tel.webp"}/>
@@ -104,17 +150,9 @@ function Czechy(){
                 <h4>Uwaga</h4>
                 <div>
                     <p>
-                        Parkowanie w miastach jest mozliwe wyłącznie na wyznaczonych do tego miejscach od poniedziałku do piątku
-                        płatne są niemal wszystkie miejsca postoowe a w duzych miastach takze w weekendy Turysci moga parkowac z tzw transferiach.
-                        czyli parkingachulokowanych na obrzeszach miast przy parkowaniu na transferach otrzymije sie darmowe bilety na komunikację publiczną
-                    </p>
-                    <p>
-                        Kraj pokryty jest gęstą siecia fotoradarów oraz odcinkowych pomiarach prędkosci.Jeśli przekroczysz dozwoloną prędkość
-                        o ponad 50km/h samochód może zostac skonfiskowany,Jeżeli popełnisz w Holandi powazne wykroczenie drogowe a nie jestes w tym kraju zameldowany
-                        możesz zostać zobowiązany przez prokuratora do opłacenia mandatu natychmiast po jego wymierzeniu .
-                    </p>
-                    <p>
-                        Jako kierowca zwracaj szczególna uwagę na rowerzystów.Na ścierzkach rowerowych mają oni zawsze pierwszeństwo.
+                        W przypadku korka na autostradzie ekspresowej wymaga utworzenia 3 metrowego korytarza dla pojadów ratowniczych. Nie zastosowanie się do obowiązków kierującymu pojazdem grozi mandat karny do 5000 CZK.
+                        Za łamanie przepisów ruchu drogowego cudzoziemcy otrzymują dodatkowo punkty karne. Przekroczenie limitu 12 punktów kończy się zakazem prowadzenia pojazdów na terenie Czech przez okres 1 roku oraz
+                        zatrzymaniem prawa jazdy
                     </p>
                 </div>
             </div>

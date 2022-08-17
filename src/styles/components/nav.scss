@@ -190,4 +190,12 @@
       border-bottom: 1px solid #444;
     }
   }
+  .liNav{
+    display: flex;
+    justify-content: flex-start;
+  }
+  .navFlag{
+    width: 20px;
+    height: 20px;
+  }
 }

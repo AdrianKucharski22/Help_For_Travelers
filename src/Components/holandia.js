@@ -1,3 +1,4 @@
+import React from "react";
 
 function Holandia(){
     return(
@@ -8,8 +9,10 @@ function Holandia(){
                 <h1>Holandia</h1>
               </div>
               <div className={'leftInfo flex'}>
-                  <p>Europejski NumerAlarmowy</p>
-                  <h2>112</h2>
+                  <div className={'alarm'}>
+                      <p>Europejski Numer Alarmowy</p>
+                      <h2>112</h2>
+                  </div>
               </div>
           </nav>
           <div>

@@ -27,6 +27,9 @@ import Szwajcaria from "./Components/szwajcaria";
 import Szwecja from "./Components/szwecja";
 import Wegry from "./Components/wegry";
 import './App.css';
+import Footer from "./Components/Footer";
+import Login from "./Components/Login";
+
 
 function App() {
     return (
@@ -34,6 +37,7 @@ function App() {
             <Menu />
             <Routes>
                 <Route path={"/"} exact element={<MainPage />} />
+                <Route path={"/Login"} exact element={<Login/>} />
                 <Route path={"/niemcy"} element={<Niemcy />} />
                 <Route path={"/holandia"} element={<Holandia />} />
                 <Route path={"/polska"} element={<Polska />} />
@@ -59,7 +63,7 @@ function App() {
                 <Route path={"/szwecja"} element={<Szwecja />} />
                 <Route path={"/wegry"} element={<Wegry />} />
             </Routes>
-
+            <Footer/>
         </BrowserRouter>
     );
 }

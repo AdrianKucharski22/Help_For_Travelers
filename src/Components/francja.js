@@ -3,15 +3,29 @@ import "../styles/main.scss"
 
 function Francja(){
     return(
-        <div className={'countryPage holandia'}>
+        <div className={'countryPage francja'}>
             <nav className={'countryNav border flex'}>
                 <div className={'flex'}>
-                    <img src={"/flaga-holandia.webp"} alt={'Holandia'} className={'holandia'}/>
-                    <h1>Holandia</h1>
+                    <img src={"/flaga-francja.png"} alt={'Francja'} className={'francja'}/>
+                    <h1>Francja</h1>
                 </div>
                 <div className={'leftInfo flex'}>
-                    <p>Europejski NumerAlarmowy</p>
-                    <h2>112</h2>
+                    <div className={'alarm'}>
+                        <p>Europejski Numer Alarmowy</p>
+                        <h2>112</h2>
+                    </div>
+                    <div className={'alarm'}>
+                        <p>Policja</p>
+                        <h2>17</h2>
+                    </div>
+                    <div className={'alarm'}>
+                        <p>Pogotowie Ratunkowe</p>
+                        <h2>15</h2>
+                    </div>
+                    <div className={'alarm'}>
+                        <p>Straż pożarna</p>
+                        <h2>18</h2>
+                    </div>
                 </div>
             </nav>
             <div>
@@ -21,7 +35,7 @@ function Francja(){
                     </h4>
                     <p>
                         Na podstawi paszportu lub dowodu osobistego.Swobodny przepływ osób w ramach UE oraz
-                        EuropejskiegoObszaru Gospodarczego.
+                        Europejskiego Obszaru Gospodarczego.
                         Polskie prawo jazdy jest honorowane.
                     </p>
                 </div>
@@ -43,10 +57,14 @@ function Francja(){
                     </div>
                 </div>
                 <div className={'signs flex'}>
-                    <h4>Autostrady i drogi ekspresowe</h4>
+                    <h4>Drogi ekspresowe</h4>
                     <div className={'signs flex'}>
-                        <img src={'/100.jpg'} alt={'100km/h'}/>
-                        <img src={'/120.jpg'} alt={'120km/h'}/>
+                        <img src={'/110.jpg'} alt={'110km/h'}/>
+                    </div>
+                </div>
+                <div className={'signs flex'}>
+                    <h4>Autostrady</h4>
+                    <div className={'signs flex'}>
                         <img src={'/130.jpg'} alt={'130km/h'}/>
                     </div>
                 </div>
@@ -57,11 +75,11 @@ function Francja(){
                 </h4>
                 <div>
                     <p>
-                        Korzystanie z dróg szybkiego ruchu na terenie królestwa Niderlandów jest bezpłatne.
+                        Francuskie autostradyu są płatne. Opłata za podróżowanie uzależniona jest od rodzaju pojazdu oraz pokonanego odcinka.
+                        Opłat uiszcza się na bramkach lub automatyczna przy użyciu urządzenia w samochodzie zarejestrowanego przez jednego z francuskich operatoró.
                     </p>
                     <p>
-                        Opłat można spodziewac się jedynie za przejazd niektórymi tunelamu np.Dordse Kill w regionie
-                        Biesbosch (ok 2E) i Westerschelde między wyspą Zeeland a trasą Baarland-Temeuzen(ok 3E)
+                        We francji płatne są również przejazdy niktórymi tunelami, wiaduktami i mostami. Z Francji w prosty sposób można dostać się do Wielkiej Brytanii dzięki Eurotunelowi. Cena za przejazd tunelem zależna jest od teminu rezerwacji.
                     </p>
                 </div>
             </div>
@@ -78,7 +96,8 @@ function Francja(){
                     </div>
                     <div>
                         <h2>0,2%</h2>
-                        <p>Dla kierowców początkujących posiadających prawo jazdy krócej niż 5 lat</p>
+                        <p>Dla kierowców początkujących posiadających prawo jazdy krócej niż 3 lata</p>
+                        <p>We Francji zalecane jest posiadanie w samochodzie alkomatu</p>
                     </div>
                 </div>
             </div>
@@ -93,7 +112,7 @@ function Francja(){
                 </div>
                 <div className={'flex'}>
                     <img src={"/baby.png"}/>
-                    <p>obowiązek używania fotelików lub siedzisk do 12 lat lub 150cm dzieci do lat 3 wyłącznie na tylnym siedzeniu</p>
+                    <p>obowiązek używania fotelików lub siedzisk do 10 lat w foteliku mogą podróżować na przednim siedzeniu</p>
                 </div>
                 <div className={'flex'}>
                     <img src={"/tel.webp"}/>
@@ -104,17 +123,11 @@ function Francja(){
                 <h4>Uwaga</h4>
                 <div>
                     <p>
-                        Parkowanie w miastach jest mozliwe wyłącznie na wyznaczonych do tego miejscach od poniedziałku do piątku
-                        płatne są niemal wszystkie miejsca postoowe a w duzych miastach takze w weekendy Turysci moga parkowac z tzw transferiach.
-                        czyli parkingachulokowanych na obrzeszach miast przy parkowaniu na transferach otrzymije sie darmowe bilety na komunikację publiczną
+                        Przekroczenie dozwolonych prędkości o ponad 30km/h wiąze się z natychmiastowym zatrzymaniem prawa jazdy. W terenie zabudowanym piesi maja bezwzględne pierwszeństwo.
                     </p>
                     <p>
-                        Kraj pokryty jest gęstą siecia fotoradarów oraz odcinkowych pomiarach prędkosci.Jeśli przekroczysz dozwoloną prędkość
-                        o ponad 50km/h samochód może zostac skonfiskowany,Jeżeli popełnisz w Holandi powazne wykroczenie drogowe a nie jestes w tym kraju zameldowany
-                        możesz zostać zobowiązany przez prokuratora do opłacenia mandatu natychmiast po jego wymierzeniu .
-                    </p>
-                    <p>
-                        Jako kierowca zwracaj szczególna uwagę na rowerzystów.Na ścierzkach rowerowych mają oni zawsze pierwszeństwo.
+                        We francji obowiązuje system stref ekologicznych opartych o winiety Crlt'Air dostępne w 6 kategoriach efektywności energetycznej oraz ilości wydzielanych przez pojazd spalin.
+                        Szczęgóły: <a href={'https://www.certificat-air.gouv.fr/'} target={'_blank'}> certyfikat-airgouv.fr</a>
                     </p>
                 </div>
             </div>

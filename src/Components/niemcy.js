@@ -6,14 +6,18 @@ function Niemcy(){
         <div className={'countryPage'}>
             <nav className={'countryNav border flex'}>
                 <div className={'flex'}>
-                    <img src="flaga-niemcy.png" alt={'Holandia'}/>
+                    <img src="flaga-niemcy.png" alt={'Niemcy'}/>
                     <h1>Niemcy</h1>
                 </div>
                 <div className={'leftInfo flex'}>
-                    <p>Europejski NumerAlarmowy</p>
-                    <h2>112</h2>
-                    <p>Policja</p>
-                    <h2>110 lub 112</h2>
+                    <div className={'alarm'}>
+                        <p>Europejski Numer Alarmowy</p>
+                        <h2>110 lub 112</h2>
+                    </div>
+                    <div className={'alarm'}>
+                        <p>Policja</p>
+                        <h2>110 lub 112</h2>
+                    </div>
                 </div>
             </nav>
             <div>

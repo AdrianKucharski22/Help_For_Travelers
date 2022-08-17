@@ -3,15 +3,29 @@ import "../styles/main.scss"
 
 function Chorwacja(){
     return(
-        <div className={'countryPage holandia'}>
+        <div className={'countryPage Chorwacja'}>
             <nav className={'countryNav border flex'}>
                 <div className={'flex'}>
-                    <img src={"/flaga-holandia.webp"} alt={'Holandia'} className={'holandia'}/>
-                    <h1>Holandia</h1>
+                    <img src={"/flaga-chorwacja.png"} alt={'Chorwacja'} className={'Chorwacja'}/>
+                    <h1>Chorwacja</h1>
                 </div>
                 <div className={'leftInfo flex'}>
-                    <p>Europejski NumerAlarmowy</p>
-                    <h2>112</h2>
+                    <div className={'alarm'}>
+                        <p>Europejski Numer Alarmowy</p>
+                        <h2>112</h2>
+                    </div>
+                    <div className={'alarm'}>
+                        <p>Policja</p>
+                        <h2>92</h2>
+                    </div>
+                    <div className={'alarm'}>
+                        <p>Pogotowie Ratunkowe</p>
+                        <h2>94</h2>
+                    </div>
+                    <div className={'alarm'}>
+                        <p>Straż pożarna</p>
+                        <h2>93</h2>
+                    </div>
                 </div>
             </nav>
             <div>
@@ -39,14 +53,12 @@ function Chorwacja(){
                 <div className={'signs flex'}>
                     <h4>Teren Niezabudowany</h4>
                     <div>
-                        <img src={'/80.jpg'} alt={'80km/h'}/>
+                        <img src={'/90.png'} alt={'90km/h'}/>
                     </div>
                 </div>
                 <div className={'signs flex'}>
                     <h4>Autostrady i drogi ekspresowe</h4>
                     <div className={'signs flex'}>
-                        <img src={'/100.jpg'} alt={'100km/h'}/>
-                        <img src={'/120.jpg'} alt={'120km/h'}/>
                         <img src={'/130.jpg'} alt={'130km/h'}/>
                     </div>
                 </div>
@@ -57,11 +69,10 @@ function Chorwacja(){
                 </h4>
                 <div>
                     <p>
-                        Korzystanie z dróg szybkiego ruchu na terenie królestwa Niderlandów jest bezpłatne.
+                        Chorwackie autostrady są płatne. Opłata za podróżowanie uzależniona jest od rodzaju pojazdu oraz pokonanego odcinka.
                     </p>
                     <p>
-                        Opłat można spodziewac się jedynie za przejazd niektórymi tunelamu np.Dordse Kill w regionie
-                        Biesbosch (ok 2E) i Westerschelde między wyspą Zeeland a trasą Baarland-Temeuzen(ok 3E)
+                        Uiszcza się ją na bramkach zjazdowych. Płacić można kartą lub gotówką - w kunach i EUR lub korzystanie z systemu ENC.
                     </p>
                 </div>
             </div>
@@ -77,8 +88,13 @@ function Chorwacja(){
                         <p>Dla kierowców doświadczonych</p>
                     </div>
                     <div>
-                        <h2>0,2%</h2>
-                        <p>Dla kierowców początkujących posiadających prawo jazdy krócej niż 5 lat</p>
+                        <h2>0,0%</h2>
+                        <p>Dla kierowców w wieku 16-24 lata i zawodowych kierowców</p>
+                    </div>
+                    <div>
+                        <p>Zawartość alkoholu we krwi podważanej dopuszczalnej może zostać ukarana mandatem i odebraniem prawa jazdy lub pozbawienia wolności. Chorwacka policja ma prawo zatrzymać prawo jazdy zagranicznego kierowcy na okres 8dni
+                         w sytuacji gdy prowadził pojazd pod wpływem alkoholu
+                        </p>
                     </div>
                 </div>
             </div>
@@ -93,7 +109,7 @@ function Chorwacja(){
                 </div>
                 <div className={'flex'}>
                     <img src={"/baby.png"}/>
-                    <p>obowiązek używania fotelików lub siedzisk do 12 lat lub 150cm dzieci do lat 3 wyłącznie na tylnym siedzeniu</p>
+                    <p>obowiązek używania fotelików do 5 lat zakaz przewożenia dzieci 5-12 lat na przednim siedzeniu</p>
                 </div>
                 <div className={'flex'}>
                     <img src={"/tel.webp"}/>
@@ -104,18 +120,12 @@ function Chorwacja(){
                 <h4>Uwaga</h4>
                 <div>
                     <p>
-                        Parkowanie w miastach jest mozliwe wyłącznie na wyznaczonych do tego miejscach od poniedziałku do piątku
-                        płatne są niemal wszystkie miejsca postoowe a w duzych miastach takze w weekendy Turysci moga parkowac z tzw transferiach.
-                        czyli parkingachulokowanych na obrzeszach miast przy parkowaniu na transferach otrzymije sie darmowe bilety na komunikację publiczną
+                        Kary pieniężne egzekwowane są na miejscu popełnianego wykroczenia lub poprzez dokonanie wpłaty na najbliższej poczcie.
                     </p>
                     <p>
-                        Kraj pokryty jest gęstą siecia fotoradarów oraz odcinkowych pomiarach prędkosci.Jeśli przekroczysz dozwoloną prędkość
-                        o ponad 50km/h samochód może zostac skonfiskowany,Jeżeli popełnisz w Holandi powazne wykroczenie drogowe a nie jestes w tym kraju zameldowany
-                        możesz zostać zobowiązany przez prokuratora do opłacenia mandatu natychmiast po jego wymierzeniu .
+                        kierowcę uczestniczącego w kolizji drogowej policja może skierować do sądu ds. wykroczeń
                     </p>
-                    <p>
-                        Jako kierowca zwracaj szczególna uwagę na rowerzystów.Na ścierzkach rowerowych mają oni zawsze pierwszeństwo.
-                    </p>
+                    <p>Pojazdy parkujące w nidozwolonych miejcach są w krótkim czasie odholowywane na parkingi policyjne a kierowcy obłożeni są wysokimi karami pieniężnymi</p>
                 </div>
             </div>
         </div>

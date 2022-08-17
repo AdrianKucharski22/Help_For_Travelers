@@ -3,11 +3,11 @@ import "../styles/main.scss"
 
 function Hiszpania(){
     return(
-        <div className={'countryPage holandia'}>
+        <div className={'countryPage hiszpania'}>
             <nav className={'countryNav border flex'}>
                 <div className={'flex'}>
-                    <img src={"/flaga-holandia.webp"} alt={'Holandia'} className={'holandia'}/>
-                    <h1>Holandia</h1>
+                    <img src={"/flaga-hiszpania.jpg"} alt={'Hiszpania'} className={'hiszpania'}/>
+                    <h1>Hiszpania</h1>
                 </div>
                 <div className={'leftInfo flex'}>
                     <p>Europejski NumerAlarmowy</p>
@@ -21,7 +21,7 @@ function Hiszpania(){
                     </h4>
                     <p>
                         Na podstawi paszportu lub dowodu osobistego.Swobodny przepływ osób w ramach UE oraz
-                        EuropejskiegoObszaru Gospodarczego.
+                        Europejskiego Obszaru Gospodarczego.
                         Polskie prawo jazdy jest honorowane.
                     </p>
                 </div>
@@ -39,15 +39,13 @@ function Hiszpania(){
                 <div className={'signs flex'}>
                     <h4>Teren Niezabudowany</h4>
                     <div>
-                        <img src={'/80.jpg'} alt={'80km/h'}/>
+                        <img src={'/90.png'} alt={'90km/h'}/>
                     </div>
                 </div>
                 <div className={'signs flex'}>
                     <h4>Autostrady i drogi ekspresowe</h4>
                     <div className={'signs flex'}>
-                        <img src={'/100.jpg'} alt={'100km/h'}/>
                         <img src={'/120.jpg'} alt={'120km/h'}/>
-                        <img src={'/130.jpg'} alt={'130km/h'}/>
                     </div>
                 </div>
             </div>
@@ -57,11 +55,8 @@ function Hiszpania(){
                 </h4>
                 <div>
                     <p>
-                        Korzystanie z dróg szybkiego ruchu na terenie królestwa Niderlandów jest bezpłatne.
-                    </p>
-                    <p>
-                        Opłat można spodziewac się jedynie za przejazd niektórymi tunelamu np.Dordse Kill w regionie
-                        Biesbosch (ok 2E) i Westerschelde między wyspą Zeeland a trasą Baarland-Temeuzen(ok 3E)
+                        Niewielkia część autostrad jest płatna (ok.10%). Opłata za podróżowanie uzależniona jest od rodzaju pojazdu oraz pokonanego odcinka Opłat uiszcza się na bramkach.
+                        Opłaty za przejazd na danym odcinku można sprawdzić korzystając ze strony internetowej: <a href={'https://www.mitma.gob.es/'} target={'_blank'}>www.mitma.gob.es</a>
                     </p>
                 </div>
             </div>
@@ -77,8 +72,8 @@ function Hiszpania(){
                         <p>Dla kierowców doświadczonych</p>
                     </div>
                     <div>
-                        <h2>0,2%</h2>
-                        <p>Dla kierowców początkujących posiadających prawo jazdy krócej niż 5 lat</p>
+                        <h2>0,3%</h2>
+                        <p>Dla kierowców początkujących posiadających prawo jazdy krócej niż 2 lata</p>
                     </div>
                 </div>
             </div>
@@ -93,7 +88,7 @@ function Hiszpania(){
                 </div>
                 <div className={'flex'}>
                     <img src={"/baby.png"}/>
-                    <p>obowiązek używania fotelików lub siedzisk do 12 lat lub 150cm dzieci do lat 3 wyłącznie na tylnym siedzeniu</p>
+                    <p>obowiązek używania fotelików lub siedzisk do 12 lat lub 135cm</p>
                 </div>
                 <div className={'flex'}>
                     <img src={"/tel.webp"}/>
@@ -104,17 +99,13 @@ function Hiszpania(){
                 <h4>Uwaga</h4>
                 <div>
                     <p>
-                        Parkowanie w miastach jest mozliwe wyłącznie na wyznaczonych do tego miejscach od poniedziałku do piątku
-                        płatne są niemal wszystkie miejsca postoowe a w duzych miastach takze w weekendy Turysci moga parkowac z tzw transferiach.
-                        czyli parkingachulokowanych na obrzeszach miast przy parkowaniu na transferach otrzymije sie darmowe bilety na komunikację publiczną
-                    </p>
-                    <p>
-                        Kraj pokryty jest gęstą siecia fotoradarów oraz odcinkowych pomiarach prędkosci.Jeśli przekroczysz dozwoloną prędkość
-                        o ponad 50km/h samochód może zostac skonfiskowany,Jeżeli popełnisz w Holandi powazne wykroczenie drogowe a nie jestes w tym kraju zameldowany
-                        możesz zostać zobowiązany przez prokuratora do opłacenia mandatu natychmiast po jego wymierzeniu .
-                    </p>
-                    <p>
-                        Jako kierowca zwracaj szczególna uwagę na rowerzystów.Na ścierzkach rowerowych mają oni zawsze pierwszeństwo.
+                        Po wypisaniu mandatu policja unieruchamia pojazd i zatrzymuje jego dokumenty, Nie ma możliwości uzyskania "mandatu kredytowego". Kierowca może kontynuować jazdę pojazdem dopiero po opłaceniu mandatu.
+                         Mandat można opłacić na 3 sposoby:
+                        <ul>
+                            <li>gotówką na miejscu</li>
+                            <li>poprzez kaucję gwarantowana przez hiszpańską firmę upoważnioną do tego przez hiszpańskie Ministerstwo Transportu (jeżeli mamy taką umowę).</li>
+                            <li>przelewem na konto bankowe Wydziały transportu właściwego dla regionu , gdzie miało miejsce zatrzymanie jeżeli jest on dopuszczalny</li>
+                        </ul>
                     </p>
                 </div>
             </div>

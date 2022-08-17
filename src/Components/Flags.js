@@ -2,14 +2,14 @@ import React from "react"
 import "../styles/main.scss"
 import Holandia from "./holandia";
     function Flags() {
-        const countryes = ["Holandia","Niemcy","Polska","Francja","Wlochy","Czechy","Slowacja","Wegry","Szwecja","Szwajcaria","Slowenia","Portugalia","Norwegia","Lotwa","Litwa","Hiszpania","Grecja","Finlandia","Estonia","Dania","Czarnogora","Chorwacja","Bulgaria","Austria"]
-        const countresImg = ["flaga-holandia.webp","flaga-niemcy.png","Polska","Francja","flaga-wlochy.webp","Czechy","flaga-slowacja.png","flaga-wegry.png","flaga-szwecja.webp","flaga-szwajcaria.png","Słowenia","flaga-portugalia.png","flaga-norwegia.png","flaga-lotwa.webp","flaga-litwa.jpg","Hiszpania","Grecja","Finlandia","Estonia","Dania","Czarnogóra","Chorwacja","Bułgaria","Austria"]
+        const countryes = ["Holandia","Niemcy","Francja","Wlochy","Czechy","Slowacja","Wegry","Szwecja","Szwajcaria","Slowenia","Portugalia","Norwegia","Lotwa","Litwa","Hiszpania","Grecja","Finlandia","Estonia","Dania","Czarnogora","Chorwacja","Bulgaria","Austria"]
+        const countresImg = ["flaga-holandia.webp","flaga-niemcy.png","flaga-francja.png","flaga-wlochy.webp","flaga-czechy.png","flaga-slowacja.png","flaga-wegry.png","flaga-szwecja.webp","flaga-szwajcaria.png","flaga-slowenia.png","flaga-portugalia.png","flaga-norwegia.png","flaga-lotwa.webp","flaga-litwa.jpg","flaga-hiszpania.jpg","flaga-grecja.png","flaga-finlandia.png","flaga-estonia.webp","flaga-dania.png","flaga-czarnogora.webp","flaga-chorwacja.png","flaga-bulgaria.png","flaga-austria.webp"]
             return(
                 <>
                     {countryes.map((country, i) =>(
                     <div className={country} key={country}>
                         <a href={country}  className={country}>
-                            <img src={`${process.env.PUBLIC_URL}/${countresImg[i]}`} alt={country}/>
+                            <img src={`${process.env.PUBLIC_URL}/${countresImg[i]}`} alt={country} className={'flag'}/>
                             <p>{country}</p>
                         </a>
                     </div>

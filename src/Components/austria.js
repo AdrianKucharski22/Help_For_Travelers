@@ -22,7 +22,7 @@ function Austria(){
                     <p>
                         Na podstawi paszportu lub dowodu osobistego.Swobodny przepływ osób w ramach UE oraz
                         EuropejskiegoObszaru Gospodarczego.
-                        Polskie prawo jazdy jest honorowane.
+                        Polskie prawo jazdy jest honorowane. Osoby poniżej 18 roku życia nie mogą prowadzić nawet jeśli mają prawo jazdy
                     </p>
                 </div>
             </div>
@@ -39,14 +39,12 @@ function Austria(){
                 <div className={'signs flex'}>
                     <h4>Teren Niezabudowany</h4>
                     <div>
-                        <img src={'/80.jpg'} alt={'80km/h'}/>
+                        <img src={'/100.jpg'} alt={'100km/h'}/>
                     </div>
                 </div>
                 <div className={'signs flex'}>
-                    <h4>Autostrady i drogi ekspresowe</h4>
+                    <h4>Autostrady</h4>
                     <div className={'signs flex'}>
-                        <img src={'/100.jpg'} alt={'100km/h'}/>
-                        <img src={'/120.jpg'} alt={'120km/h'}/>
                         <img src={'/130.jpg'} alt={'130km/h'}/>
                     </div>
                 </div>
@@ -57,12 +55,53 @@ function Austria(){
                 </h4>
                 <div>
                     <p>
-                        Korzystanie z dróg szybkiego ruchu na terenie królestwa Niderlandów jest bezpłatne.
+                        Na autostradach i drogavh szybkiegu ruchu bezwzględnie wymagana jest winieta. czyli nalepka potwierdzająca wniesienie opłaty za korzystanie z płatnych dróg.
+                    </p>
+                    <p>Ceny winiet (w 2022 roku) wynoszą:</p>
+                    <p>
+                        <div className={'flex moto'}>
+                            <div>
+                                <h4>Kategoria A</h4>
+                            </div>
+                            <div>
+                                <h4>10-dniowa:</h4>
+                                <p>5,60 EUR</p>
+                            </div>
+                            <div>
+                                <h4>2-Miesięczna</h4>
+                                <p>14,10 EUR</p>
+                            </div>
+                            <div>
+                                <h4>Roczna</h4>
+                                <p>37,20 EUR</p>
+                            </div>
+                        </div>
+                        <div  className={'flex cars'}>
+                            <div>
+                                <h4>kategoria B</h4>
+                            </div>
+                            <div>
+                                <h4>10-dniowa:</h4>
+                                <p>9,60 EUR</p>
+                            </div>
+                            <div>
+                                <h4>2-Miesięczna</h4>
+                                <p>28,20 EUR</p>
+                            </div>
+                            <div>
+                                <h4>Roczna</h4>
+                                <p>93,80 EUR</p>
+                            </div>
+                        </div>
                     </p>
                     <p>
-                        Opłat można spodziewac się jedynie za przejazd niektórymi tunelamu np.Dordse Kill w regionie
-                        Biesbosch (ok 2E) i Westerschelde między wyspą Zeeland a trasą Baarland-Temeuzen(ok 3E)
+                        Pojazdy muszą posiadać prawidłowo przyklejoną winietę lub  zakupić winietę cyfrową, gdy wjeżdżają na autostradę lub drogę ekspresową. Za jej brak grozi obowiązek wykupienia jednodniowej winiety zastępczej 120EUR
                     </p>
+                    <p>
+                        Szczegóły: <a href={'https://www.asfinag.at/en/toll/vignette/'} target={'_blank'}>asfinag.at/en/toll/vignette</a><br/>
+                        Mapa z punktami sprzedaży: <a href={'https://www.asfinag.at/en/toll/sales-outlets/#PointOfSaleMap'} target={'_blank'}>asfinag.at/en/toll/sales-outlets/#PointOfSaleMap</a>
+                    </p>
+                    <p> Na pewnych odcinkach dróg obowiązują dodatkowe opłaty za przejazd. Szczegóły: <a href={'https://www.asfinag.at/en/toll/section-toll'} target={'_blank'}>asfinag.at/en/toll/section-toll</a></p>
                 </div>
             </div>
             <div className={'driveAfterDrink border flex'}>
@@ -74,11 +113,12 @@ function Austria(){
                         <h2>
                             0,5%
                         </h2>
-                        <p>Dla kierowców doświadczonych</p>
-                    </div>
-                    <div>
-                        <h2>0,2%</h2>
-                        <p>Dla kierowców początkujących posiadających prawo jazdy krócej niż 5 lat</p>
+                        <p>
+                            W niektórych szczególnych okolicznościach limit ten może zostać zmiejszony do 0,1% lub mniej.
+                        </p>
+                        <p>
+                            Zawartość alkoholu we krwi powyżej limitu może zostać ukarana mandatem i odebraniem prawa jazdy lub kilkumiesięcznym pozbawieniem wolności, nawet jeśli nie doprowadziło do kolizji.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -93,7 +133,7 @@ function Austria(){
                 </div>
                 <div className={'flex'}>
                     <img src={"/baby.png"}/>
-                    <p>obowiązek używania fotelików lub siedzisk do 12 lat lub 150cm dzieci do lat 3 wyłącznie na tylnym siedzeniu</p>
+                    <p>obowiązek używania fotelików lub siedzisk do 124cm/14 lat w foteliku lub siedzisku</p>
                 </div>
                 <div className={'flex'}>
                     <img src={"/tel.webp"}/>
@@ -104,17 +144,7 @@ function Austria(){
                 <h4>Uwaga</h4>
                 <div>
                     <p>
-                        Parkowanie w miastach jest mozliwe wyłącznie na wyznaczonych do tego miejscach od poniedziałku do piątku
-                        płatne są niemal wszystkie miejsca postoowe a w duzych miastach takze w weekendy Turysci moga parkowac z tzw transferiach.
-                        czyli parkingachulokowanych na obrzeszach miast przy parkowaniu na transferach otrzymije sie darmowe bilety na komunikację publiczną
-                    </p>
-                    <p>
-                        Kraj pokryty jest gęstą siecia fotoradarów oraz odcinkowych pomiarach prędkosci.Jeśli przekroczysz dozwoloną prędkość
-                        o ponad 50km/h samochód może zostac skonfiskowany,Jeżeli popełnisz w Holandi powazne wykroczenie drogowe a nie jestes w tym kraju zameldowany
-                        możesz zostać zobowiązany przez prokuratora do opłacenia mandatu natychmiast po jego wymierzeniu .
-                    </p>
-                    <p>
-                        Jako kierowca zwracaj szczególna uwagę na rowerzystów.Na ścierzkach rowerowych mają oni zawsze pierwszeństwo.
+                        <a href={'https://www.oesterreich.gv.at/en/themen/freizeit_und_strassenverkehr/idz'} target={'_blank'}>oesterreich.gv.at/en/themen/freizeit_und_strassenverkehr/idz</a>
                     </p>
                 </div>
             </div>

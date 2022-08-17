@@ -3,15 +3,17 @@ import "../styles/main.scss"
 
 function Estonia(){
     return(
-        <div className={'countryPage holandia'}>
+        <div className={'countryPage estonia'}>
             <nav className={'countryNav border flex'}>
                 <div className={'flex'}>
-                    <img src={"/flaga-holandia.webp"} alt={'Holandia'} className={'holandia'}/>
-                    <h1>Holandia</h1>
+                    <img src={"/flaga-estonia.webp"} alt={'Estonia'} className={'estonia'}/>
+                    <h1>Estonia</h1>
                 </div>
                 <div className={'leftInfo flex'}>
-                    <p>Europejski NumerAlarmowy</p>
-                    <h2>112</h2>
+                    <div className={'alarm'}>
+                        <p>Europejski Numer Alarmowy</p>
+                        <h2>112</h2>
+                    </div>
                 </div>
             </nav>
             <div>
@@ -21,7 +23,7 @@ function Estonia(){
                     </h4>
                     <p>
                         Na podstawi paszportu lub dowodu osobistego.Swobodny przepływ osób w ramach UE oraz
-                        EuropejskiegoObszaru Gospodarczego.
+                        Europejskiego Obszaru Gospodarczego. Podróżując samochodem, którego właścicielem jest inna osoba należy posiadać stosowne potfierdzenie
                         Polskie prawo jazdy jest honorowane.
                     </p>
                 </div>
@@ -39,15 +41,14 @@ function Estonia(){
                 <div className={'signs flex'}>
                     <h4>Teren Niezabudowany</h4>
                     <div>
-                        <img src={'/80.jpg'} alt={'80km/h'}/>
+                        <img src={'/90.png'} alt={'90km/h'}/>
                     </div>
                 </div>
                 <div className={'signs flex'}>
                     <h4>Autostrady i drogi ekspresowe</h4>
                     <div className={'signs flex'}>
-                        <img src={'/100.jpg'} alt={'100km/h'}/>
-                        <img src={'/120.jpg'} alt={'120km/h'}/>
-                        <img src={'/130.jpg'} alt={'130km/h'}/>
+                        <img src={'90.png'} alt={'90km/h'}/>
+                        <img src={'/110.jpg'} alt={'110km/h'}/>
                     </div>
                 </div>
             </div>
@@ -57,11 +58,7 @@ function Estonia(){
                 </h4>
                 <div>
                     <p>
-                        Korzystanie z dróg szybkiego ruchu na terenie królestwa Niderlandów jest bezpłatne.
-                    </p>
-                    <p>
-                        Opłat można spodziewac się jedynie za przejazd niektórymi tunelamu np.Dordse Kill w regionie
-                        Biesbosch (ok 2E) i Westerschelde między wyspą Zeeland a trasą Baarland-Temeuzen(ok 3E)
+                        Przejzady dla pojazdów osobowych po autostradach i drogach szybkiego ruchu są bezpłatne
                     </p>
                 </div>
             </div>
@@ -71,14 +68,8 @@ function Estonia(){
                 </h4>
                 <div>
                     <div>
-                        <h2>
-                            0,5%
-                        </h2>
-                        <p>Dla kierowców doświadczonych</p>
-                    </div>
-                    <div>
                         <h2>0,2%</h2>
-                        <p>Dla kierowców początkujących posiadających prawo jazdy krócej niż 5 lat</p>
+                        <p>Estońska policja surowo karze kierowców którzy przekraczają limit. W zależności od sytuacji możesz spodziewać się wysokiej grzywny i odebrania prawa jazdy lub, w najgorszym wypadku, kary pozbawinia wolności.</p>
                     </div>
                 </div>
             </div>
@@ -93,7 +84,7 @@ function Estonia(){
                 </div>
                 <div className={'flex'}>
                     <img src={"/baby.png"}/>
-                    <p>obowiązek używania fotelików lub siedzisk do 12 lat lub 150cm dzieci do lat 3 wyłącznie na tylnym siedzeniu</p>
+                    <p>fotelik lub siedzisko jest obowiązkowe gdy dziecko nie jest wystarczająco wysokie aby zapiąc pas bezpieczeństwa zgodnie z wymogami określonymi przez producenta pojazdu</p>
                 </div>
                 <div className={'flex'}>
                     <img src={"/tel.webp"}/>
@@ -104,17 +95,10 @@ function Estonia(){
                 <h4>Uwaga</h4>
                 <div>
                     <p>
-                        Parkowanie w miastach jest mozliwe wyłącznie na wyznaczonych do tego miejscach od poniedziałku do piątku
-                        płatne są niemal wszystkie miejsca postoowe a w duzych miastach takze w weekendy Turysci moga parkowac z tzw transferiach.
-                        czyli parkingachulokowanych na obrzeszach miast przy parkowaniu na transferach otrzymije sie darmowe bilety na komunikację publiczną
+                        Światła do jazdy dziennej są obowiązkowe nawet w godzinach dziennych.
                     </p>
                     <p>
-                        Kraj pokryty jest gęstą siecia fotoradarów oraz odcinkowych pomiarach prędkosci.Jeśli przekroczysz dozwoloną prędkość
-                        o ponad 50km/h samochód może zostac skonfiskowany,Jeżeli popełnisz w Holandi powazne wykroczenie drogowe a nie jestes w tym kraju zameldowany
-                        możesz zostać zobowiązany przez prokuratora do opłacenia mandatu natychmiast po jego wymierzeniu .
-                    </p>
-                    <p>
-                        Jako kierowca zwracaj szczególna uwagę na rowerzystów.Na ścierzkach rowerowych mają oni zawsze pierwszeństwo.
+                        Estonia przystąpiła do unijnego systemu wymiany informacji o ruchu drogowym z kamer rejestracyjnych co wyeliminuje możliwość uniknięcia konsekwencji przez kierowców z innych krajów UE łamiących przepisy
                     </p>
                 </div>
             </div>
