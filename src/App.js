@@ -4,7 +4,6 @@ import MainPage from "./main";
 import Menu from "./Components/Menu";
 import Holandia from "./Components/holandia";
 import Niemcy from "./Components/niemcy";
-import Polska from "./Components/polska";
 import Czechy from "./Components/czechy";
 import Wlochy from "./Components/wlochy";
 import Slowacja from "./Components/slowacja";
@@ -26,9 +25,9 @@ import Slowenia from "./Components/slowenia";
 import Szwajcaria from "./Components/szwajcaria";
 import Szwecja from "./Components/szwecja";
 import Wegry from "./Components/wegry";
-import './App.css';
 import Footer from "./Components/Footer";
 import Login from "./Components/Login";
+import './App.css';
 
 
 function App() {
@@ -40,7 +39,6 @@ function App() {
                 <Route path={"/Login"} exact element={<Login/>} />
                 <Route path={"/niemcy"} element={<Niemcy />} />
                 <Route path={"/holandia"} element={<Holandia />} />
-                <Route path={"/polska"} element={<Polska />} />
                 <Route path={"/czechy"} element={<Czechy />} />
                 <Route path={"/wlochy"} element={<Wlochy />} />
                 <Route path={"/slowacja"} element={<Slowacja />} />

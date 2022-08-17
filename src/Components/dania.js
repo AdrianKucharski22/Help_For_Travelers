@@ -4,7 +4,7 @@ import "../styles/main.scss"
 function Dania(){
     return(
         <div className={'countryPage dania'}>
-            <nav className={'countryNav border flex'}>
+            <nav className={'countryNav borderDiv flex'}>
                 <div className={'flex'}>
                     <img src={"/flaga-dania.png"} alt={'Dania'} className={'dania'}/>
                     <h1>Dania</h1>
@@ -21,7 +21,7 @@ function Dania(){
                 </div>
             </nav>
             <div>
-                <div className={'intoCountry border flex'}>
+                <div className={'intoCountry borderDiv flex'}>
                     <h4>
                         Wjazd do kraju
                     </h4>
@@ -32,7 +32,7 @@ function Dania(){
                     </p>
                 </div>
             </div>
-            <div className={'speedLimitations border flex'}>
+            <div className={'speedLimitations borderDiv flex'}>
                 <h4>
                     Ograniczenia prędkości
                 </h4>
@@ -55,7 +55,7 @@ function Dania(){
                     </div>
                 </div>
             </div>
-            <div className={'payment border flex'}>
+            <div className={'payment borderDiv flex'}>
                 <h4>
                     Opłaty za przejazdy
                 </h4>
@@ -66,7 +66,7 @@ function Dania(){
                     </p>
                 </div>
             </div>
-            <div className={'driveAfterDrink border flex'}>
+            <div className={'driveAfterDrink borderDiv flex'}>
                 <h4>
                     Dopuszczalne stężenie Alkoholu we krwi
                 </h4>
@@ -83,7 +83,7 @@ function Dania(){
                     </div>
                 </div>
             </div>
-            <div className={'safety border flex'}>
+            <div className={'safety borderDiv flex'}>
                 <div className={'flex'}>
                     <img src={"/helmet.svg"}/>
                     <p>obowiązek posiadania kasku dla wszystkich rodzajów motocykli , quadów itp</p>
@@ -101,7 +101,7 @@ function Dania(){
                     <p>zakaz rozmawiania podczas jazdy przez telefon komórkowy bez zestawu głośno mówiącego</p>
                 </div>
             </div>
-            <div className={'caution border flex'}>
+            <div className={'caution borderDiv flex'}>
                 <h4>Uwaga</h4>
                 <div>
                     <p>

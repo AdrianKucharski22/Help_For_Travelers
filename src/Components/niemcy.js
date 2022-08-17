@@ -4,7 +4,7 @@ import "../styles/main.scss"
 function Niemcy(){
     return(
         <div className={'countryPage'}>
-            <nav className={'countryNav border flex'}>
+            <nav className={'countryNav borderDiv flex'}>
                 <div className={'flex'}>
                     <img src="flaga-niemcy.png" alt={'Niemcy'}/>
                     <h1>Niemcy</h1>
@@ -12,16 +12,16 @@ function Niemcy(){
                 <div className={'leftInfo flex'}>
                     <div className={'alarm'}>
                         <p>Europejski Numer Alarmowy</p>
-                        <h2>110 lub 112</h2>
+                        <h2>112</h2>
                     </div>
                     <div className={'alarm'}>
                         <p>Policja</p>
-                        <h2>110 lub 112</h2>
+                        <h2>110</h2>
                     </div>
                 </div>
             </nav>
             <div>
-                <div className={'intoCountry border flex'}>
+                <div className={'intoCountry borderDiv flex'}>
                     <h4>
                         Wjazd do kraju
                     </h4>
@@ -32,7 +32,7 @@ function Niemcy(){
                     </p>
                 </div>
             </div>
-            <div className={'speedLimitations border flex'}>
+            <div className={'speedLimitations borderDiv flex'}>
                 <h4>
                     Ograniczenia prędkości
                 </h4>
@@ -56,7 +56,7 @@ function Niemcy(){
                     </div>
                 </div>
             </div>
-            <div className={'payment border flex'}>
+            <div className={'payment borderDiv flex'}>
                 <h4>
                     Opłaty za przejazdy
                 </h4>
@@ -73,7 +73,7 @@ function Niemcy(){
                     </p>
                 </div>
             </div>
-            <div className={'driveAfterDrink border flex'}>
+            <div className={'driveAfterDrink borderDiv flex'}>
                 <h4>
                     Dopuszczalne stężenie Alkoholu we krwi
                 </h4>
@@ -90,7 +90,7 @@ function Niemcy(){
                     </div>
                 </div>
             </div>
-            <div className={'safety border flex'}>
+            <div className={'safety borderDiv flex'}>
                 <img src={"/helmet.svg"}/>
                 <p>obowiązek posiadania kasku dla wszystkich rodzajów motocykli , quadów itp</p>
                 <img src={"/pasy.webp"}/>
@@ -100,7 +100,7 @@ function Niemcy(){
                 <img src={"/tel.webp"}/>
                 <p>zakaz rozmawiania podczas jazdy przez telefon komórkowy bez zestawu głośno mówiącego</p>
             </div>
-            <div className={'caution border flex'}>
+            <div className={'caution borderDiv flex'}>
                 <h4>Uwaga</h4>
                 <div>
                     <p>

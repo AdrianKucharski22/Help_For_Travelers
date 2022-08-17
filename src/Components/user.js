@@ -20,16 +20,15 @@ export default function Userthings() {
     return (
         <div>
                     <a href="#" onClick={handleClickChoseCountry}><li>Wybór Państwa</li></a>
-                    <a href="#"><li>Opinie</li></a>
-                    <a href="#"><li>Kontakt</li></a>
+                    <a href={'#userThoughts'}><li>Opinie</li></a>
+                    <a href="#footer"><li>Kontakt</li></a>
                     <a href="#" onClick={handleClick}><li>User</li></a>
 
             {isShownUser && (
                 <div className={"userOptionsDiv"}>
                     <ul className={'userOptions'}>
-                        <a><li>Ustawienia</li></a>
-                        <a><li>Ulubione Państwa</li></a>
-                        <a href={"Login"}><li>Zaloguj</li></a>
+                        <a href={"#"}><li>Ulubione Państwa</li></a>
+                        <a href={"#"}><li>Zaloguj</li></a>
                         <a><li>Wyloguj</li></a>
                     </ul>
                 </div>
