@@ -10,6 +10,8 @@
   width: 100%;
   text-align: center;
   form {
+    display: flex;
+    flex-direction: column;
     label {
       display: flex;
       justify-content: center;

@@ -24,10 +24,12 @@
   .countryNav{
     flex-direction: row;
     justify-content: space-between;
+
     .leftInfo {
       flex-direction: row;
       @media (max-width: 760px) {
       flex-direction: column;
+        height: 100%;
       }
       .alarm {
         display: flex;

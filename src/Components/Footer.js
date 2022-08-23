@@ -3,10 +3,10 @@ import React from "react";
 
 
 function Footer() {
-    return <section className='footer'>
+    return <section className='footer' id={'footer'}>
         <div>
         <p>Strona pozwoli ci na łatwe informacje do podstawowych praw i informacji o różnych krajach do których będziesz planować swoją podróż lub przez jakie kraję będziesz przejeżdżać.
-            Ułatwi ci to podróż i na pewno zredukuje stres gdyż będziesz wiedział/wiedziała czego się spodziewać i co przygotować na podróż aby po drodze nie było jakiś niemiłych niespodzianek </p>
+            Ułatwi ci to podróż i na pewno zredukuje stres gdyż będziesz wiedział/wiedziała czego się spodziewać i co przygotować na podróż aby po drodze nie było jakiś niemiłych niespodzianek z policją</p>
         </div>
         <div>
         <p>Kontakt do nas:</p>

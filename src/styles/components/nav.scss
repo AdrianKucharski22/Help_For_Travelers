@@ -11,6 +11,10 @@
     display: flex;
     align-items: center;
     padding-left: 20px;
+    a{
+      color: white;
+      text-decoration: none;
+    }
   }
   .mainNav{
     height: 100%;
@@ -57,7 +61,7 @@
       background-color: #242424;
     }
     @media (max-width: 900px) {
-      top: 160px;
+      top: 120px;
     }
   }
   .userOptionsDiv{
@@ -88,7 +92,7 @@
 
   .menu {
     height: 100%;
-    width: 700px;
+    width: 600px;
     display: flex;
     justify-content: flex-start;
     flex-direction: row;
