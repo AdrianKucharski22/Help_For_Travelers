@@ -1,12 +1,19 @@
-import React from "react"
-import "../styles/main.scss"
+import flagaAustria from "../JPG/flaga-austria.webp"
+import helmet from "../JPG/helmet.svg"
+import max130 from "../JPG/130.jpg"
+import max100 from "../JPG/100.jpg"
+import max50 from "../JPG/50.webp"
+import pasy from "../JPG/pasy.webp"
+import baby from "../JPG/baby.png"
+import tel from "../JPG/tel.webp"
 
 function Austria(){
     return(
+
         <div className={'countryPage austria'}>
             <nav className={'countryNav borderDiv flex'}>
                 <div className={'flex'}>
-                    <img src={"/flaga-austria.webp"} alt={'austria'} className={'austria'}/>
+                    <img src={flagaAustria} alt={'austria'} className={'austria'}/>
                     <h1>Austria</h1>
                 </div>
                 <div className={'leftInfo flex'}>
@@ -35,19 +42,19 @@ function Austria(){
                 <div className={'signs flex'}>
                     <h4>Teren Zabudowany</h4>
                     <div className={' flex'}>
-                        <img src={'/50.webp'} alt={'50km/h'}/>
+                        <img src={max50} alt={'50km/h'}/>
                     </div>
                 </div>
                 <div className={'signs flex'}>
                     <h4>Teren Niezabudowany</h4>
                     <div>
-                        <img src={'/100.jpg'} alt={'100km/h'}/>
+                        <img src={max100} alt={'100km/h'}/>
                     </div>
                 </div>
                 <div className={'signs flex'}>
                     <h4>Autostrady</h4>
                     <div className={'signs flex'}>
-                        <img src={'/130.jpg'} alt={'130km/h'}/>
+                        <img src={max130} alt={'130km/h'}/>
                     </div>
                 </div>
             </div>
@@ -126,19 +133,19 @@ function Austria(){
             </div>
             <div className={'safety borderDiv flex'}>
                 <div className={'flex'}>
-                    <img src={"/helmet.svg"}/>
+                    <img src={helmet}/>
                     <p>obowiązek posiadania kasku dla wszystkich rodzajów motocykli , quadów itp</p>
                 </div>
                 <div className={'flex'}>
-                    <img src={"/pasy.webp"}/>
+                    <img src={pasy}/>
                     <p>obowiązek zapinania pasów bezpieczeństwa na wszystkich siedzeniach samochodu</p>
                 </div>
                 <div className={'flex'}>
-                    <img src={"/baby.png"}/>
+                    <img src={baby}/>
                     <p>obowiązek używania fotelików lub siedzisk do 124cm/14 lat w foteliku lub siedzisku</p>
                 </div>
                 <div className={'flex'}>
-                    <img src={"/tel.webp"}/>
+                    <img src={tel}/>
                     <p>zakaz rozmawiania podczas jazdy przez telefon komórkowy bez zestawu głośno mówiącego</p>
                 </div>
             </div>

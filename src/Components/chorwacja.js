@@ -1,6 +1,16 @@
 import React from "react"
 import "../styles/main.scss"
-
+import flagaBulgaria from "../JPG/flaga-bulgaria.png"
+import helmet from "../JPG/helmet.svg"
+import max100 from "../JPG/100.jpg"
+import max50 from "../JPG/50.webp"
+import max80 from "../JPG/80.jpg"
+import max90 from "../JPG/90.png"
+import max120 from "../JPG/120.jpg"
+import max140 from "../JPG/140.png"
+import pasy from "../JPG/pasy.webp"
+import baby from "../JPG/baby.png"
+import tel from "../JPG/tel.webp"
 function Chorwacja(){
     return(
         <div className={'countryPage Chorwacja'}>

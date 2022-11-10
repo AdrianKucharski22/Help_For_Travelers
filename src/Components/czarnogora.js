@@ -6,7 +6,7 @@ function Czarnogora(){
         <div className={'countryPage holandia'}>
             <nav className={'countryNav borderDiv flex'}>
                 <div className={'flex'}>
-                    <img src={"/flaga-czarnogora.webp"} alt={'Holandia'} className={'holandia'}/>
+                    <img src={"flaga-czarnogora.webp"} alt={'Holandia'} className={'holandia'}/>
                     <h1>Czarnogóra</h1>
                 </div>
                 <div className={'leftInfo flex'}>
@@ -46,7 +46,7 @@ function Czarnogora(){
                 <div className={'signs flex'}>
                     <h4>Teren Zabudowany</h4>
                     <div className={' flex'}>
-                        <img src={'/50.webp'} alt={'50km/h'}/>
+                        <img src={'50.webp'} alt={'50km/h'}/>
                     </div>
                 </div>
                 <div className={'signs flex'}>

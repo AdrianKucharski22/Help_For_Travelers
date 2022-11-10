@@ -33,35 +33,33 @@ import './App.css';
 function App() {
     return (
         <BrowserRouter>
-            <Menu />
             <Routes>
-                <Route path={"/"} exact element={<MainPage />} />
+                <Route path={"/Help_For_Travelers"} exact element={<MainPage />} />
                 <Route path={"/Login"} exact element={<Login/>} />
                 <Route path={"/niemcy"} element={<Niemcy />} />
-                <Route path={"/holandia"} element={<Holandia />} />
-                <Route path={"/czechy"} element={<Czechy />} />
-                <Route path={"/wlochy"} element={<Wlochy />} />
-                <Route path={"/slowacja"} element={<Slowacja />} />
-                <Route path={"/francja"} element={<Francja />} />
-                <Route path={"/austria"} element={<Austria />} />
-                <Route path={"/bulgaria"} element={<Bulgaria />} />
-                <Route path={"/chorwacja"} element={<Chorwacja />} />
-                <Route path={"/czarnogora"} element={<Czarnogora />} />
-                <Route path={"/dania"} element={<Dania />} />
-                <Route path={"/estonia"} element={<Estonia />} />
-                <Route path={"/finlandia"} element={<Finlandia />} />
-                <Route path={"/grecja"} element={<Grecja />} />
-                <Route path={"/hiszpania"} element={<Hiszpania />} />
-                <Route path={"/litwa"} element={<Litwa />} />
-                <Route path={"/lotwa"} element={<Lotwa />} />
-                <Route path={"/norwegia"} element={<Norwegia />} />
-                <Route path={"/portugalia"} element={<Portugalia />} />
-                <Route path={"/slowenia"} element={<Slowenia />} />
-                <Route path={"/szwajcaria"} element={<Szwajcaria />} />
-                <Route path={"/szwecja"} element={<Szwecja />} />
-                <Route path={"/wegry"} element={<Wegry />} />
+                <Route path={"/holandia"} exact element={<Holandia />} />
+                <Route path={"/czechy"} exact element={<Czechy />} />
+                <Route path={"/wlochy"} exact element={<Wlochy />} />
+                <Route path={"/slowacja"} exact element={<Slowacja />} />
+                <Route path={"/francja"} exact element={<Francja />} />
+                <Route path={"/austria"} exact element={<Austria />} />
+                <Route path={"/bulgaria"} exact element={<Bulgaria />} />
+                <Route path={"/chorwacja"} exact element={<Chorwacja />} />
+                <Route path={"/czarnogora"} exact element={<Czarnogora />} />
+                <Route path={"/dania"} exact element={<Dania />} />
+                <Route path={"/estonia"} exact element={<Estonia />} />
+                <Route path={"/finlandia"} exact element={<Finlandia />} />
+                <Route path={"/grecja"} exact element={<Grecja />} />
+                <Route path={"/hiszpania"} exact element={<Hiszpania />} />
+                <Route path={"/litwa"} exact element={<Litwa />} />
+                <Route path={"/lotwa"} exact element={<Lotwa />} />
+                <Route path={"/norwegia"} exact element={<Norwegia />} />
+                <Route path={"/portugalia"} exact element={<Portugalia />} />
+                <Route path={"/slowenia"} exact element={<Slowenia />} />
+                <Route path={"/szwajcaria"} exact element={<Szwajcaria />} />
+                <Route path={"/szwecja"} exact element={<Szwecja />} />
+                <Route path={"/wegry"} exact element={<Wegry />} />
             </Routes>
-            <Footer/>
         </BrowserRouter>
     );
 }

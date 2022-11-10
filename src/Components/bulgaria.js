@@ -1,12 +1,21 @@
-import React from "react"
-import "../styles/main.scss"
+import flagaBulgaria from "../JPG/flaga-bulgaria.png"
+import helmet from "../JPG/helmet.svg"
+import max100 from "../JPG/100.jpg"
+import max50 from "../JPG/50.webp"
+import max80 from "../JPG/80.jpg"
+import max90 from "../JPG/90.png"
+import max120 from "../JPG/120.jpg"
+import max140 from "../JPG/140.png"
+import pasy from "../JPG/pasy.webp"
+import baby from "../JPG/baby.png"
+import tel from "../JPG/tel.webp"
 
 function Bulgaria(){
     return(
         <div className={'countryPage holandia'}>
             <nav className={'countryNav borderDiv flex'}>
                 <div className={'flex'}>
-                    <img src={"/flaga-bulgaria.png"} alt={'Holandia'} className={'holandia'}/>
+                    <img src={flagaBulgaria} alt={'Bułgaria'} className={'holandia'}/>
                     <h1>Bułgaria</h1>
                 </div>
                 <div className={'leftInfo flex'}>
@@ -47,28 +56,28 @@ function Bulgaria(){
                 <div className={'signs flex'}>
                     <h4>Teren Zabudowany</h4>
                     <div className={' flex'}>
-                        <img src={'/50.webp'} alt={'50km/h'}/>
+                        <img src={max50} alt={'50km/h'}/>
                     </div>
                 </div>
                 <div className={'signs flex'}>
                     <h4>Teren Niezabudowany</h4>
                     <div className={'signs flex'}>
-                        <img src={'/80.jpg'} alt={'80km/h'}/>
-                        <img src={'/90.png'} alt={'90km/h'}/>
+                        <img src={max80} alt={'80km/h'}/>
+                        <img src={max90} alt={'90km/h'}/>
                     </div>
                 </div>
                 <div className={'signs flex'}>
                     <h4>Drogi ekspresowe</h4>
                     <div className={'signs flex'}>
-                        <img src={'/100.jpg'} alt={'100km/h'}/>
-                        <img src={'/120.jpg'} alt={'120km/h'}/>
+                        <img src={max100} alt={'100km/h'}/>
+                        <img src={max120} alt={'120km/h'}/>
                     </div>
                 </div>
                 <div className={'signs flex'}>
                     <h4>Autostrady</h4>
                     <div className={'signs flex'}>
-                        <img src={'/100.jpg'} alt={'100km/h'}/>
-                        <img src={'/140.png'} alt={'140km/h'}/>
+                        <img src={max100} alt={'100km/h'}/>
+                        <img src={max140} alt={'140km/h'}/>
                     </div>
                 </div>
             </div>
@@ -126,19 +135,19 @@ function Bulgaria(){
             </div>
             <div className={'safety borderDiv flex'}>
                 <div className={'flex'}>
-                    <img src={"/helmet.svg"}/>
+                    <img src={helmet}/>
                     <p>obowiązek posiadania kasku dla wszystkich rodzajów motocykli , quadów itp</p>
                 </div>
                 <div className={'flex'}>
-                    <img src={"/pasy.webp"}/>
+                    <img src={pasy}/>
                     <p>obowiązek zapinania pasów bezpieczeństwa na wszystkich siedzeniach samochodu</p>
                 </div>
                 <div className={'flex'}>
-                    <img src={"/baby.png"}/>
+                    <img src={baby}/>
                     <p>obowiązek używania fotelików do 3 lat zakaz przewożenia dzieci od lat 3 lub do 150cm na przednim siedzeniu</p>
                 </div>
                 <div className={'flex'}>
-                    <img src={"/tel.webp"}/>
+                    <img src={tel}/>
                     <p>zakaz rozmawiania podczas jazdy przez telefon komórkowy bez zestawu głośno mówiącego</p>
                 </div>
             </div>

@@ -20,9 +20,9 @@ export default function Userthings() {
 
             {isShownCountry &&(
                 <div className={"coutryNav"} >
-                    <a href={'/'}><li>Główna</li></a>
+                    <a href={'/Help_For_Travelers'}><li>Główna</li></a>
                     {countryes.map((countryes, i) =>(
-                        <a href={countryes}><li className={'liNav'}><img src={`${process.env.PUBLIC_URL}/${countresImg[i]}`} alt={countryes} className={'navFlag'}/> {countryes}</li></a>
+                        <a href={'/'+countryes}><li className={'liNav'}><img src={`${process.env.PUBLIC_URL}/${countresImg[i]}`} alt={countryes} className={'navFlag'}/> {countryes}</li></a>
                     ))}
                 </div>
             )}

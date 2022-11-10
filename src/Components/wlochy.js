@@ -1,10 +1,18 @@
+import flagaWlochy from "../JPG/flaga-wlochy.webp"
+import max50 from "../JPG/50.webp"
+import max80 from "../JPG/80.jpg"
+import max130 from "../JPG/130.jpg"
+import helmet from "../JPG/helmet.svg"
+import pasy from "../JPG/pasy.webp"
+import baby from "../JPG/baby.png"
+import tel from "../JPG/tel.webp"
 
 function Wlochy(){
     return(
         <div className={'countryPage Wlochy'}>
             <nav className={'countryNav borderDiv flex'}>
                 <div className={'flex'}>
-                    <img src={"/flaga-wlochy.webp"} alt={'Włochy'} className={'wlochy'}/>
+                    <img src={flagaWlochy} alt={'Włochy'} className={'wlochy'}/>
                     <h1>Włochy</h1>
                 </div>
                 <div className={'leftInfo flex'}>
@@ -45,19 +53,19 @@ function Wlochy(){
                 <div className={'signs flex'}>
                     <h4>Teren Zabudowany</h4>
                     <div className={' flex'}>
-                        <img src={'/50.webp'} alt={'50km/h'}/>
+                        <img src={max50} alt={'50km/h'}/>
                     </div>
                 </div>
                 <div className={'signs flex'}>
                     <h4>Teren Niezabudowany</h4>
                     <div>
-                        <img src={'/80.jpg'} alt={'80km/h'}/>
+                        <img src={max80} alt={'80km/h'}/>
                     </div>
                 </div>
                 <div className={'signs flex'}>
                     <h4>Autostrady i drogi ekspresowe</h4>
                     <div className={'signs flex'}>
-                        <img src={'/130.jpg'} alt={'130km/h'}/>
+                        <img src={max130} alt={'130km/h'}/>
                     </div>
                 </div>
             </div>
@@ -93,19 +101,19 @@ function Wlochy(){
             </div>
             <div className={'safety borderDiv flex'}>
                 <div className={'flex'}>
-                    <img src={"/helmet.svg"}/>
+                    <img src={helmet}/>
                     <p>obowiązek posiadania kasku dla wszystkich rodzajów motocykli , quadów itp</p>
                 </div>
                 <div className={'flex'}>
-                    <img src={"/pasy.webp"}/>
+                    <img src={pasy}/>
                     <p>obowiązek zapinania pasów bezpieczeństwa na wszystkich siedzeniach samochodu</p>
                 </div>
                 <div className={'flex'}>
-                    <img src={"/baby.png"}/>
+                    <img src={baby}/>
                     <p>obowiązek używania fotelików lub siedzisk do 12 lat lub 150cm dzieci do lat 3 wyłącznie na tylnym siedzeniu</p>
                 </div>
                 <div className={'flex'}>
-                    <img src={"/tel.webp"}/>
+                    <img src={tel}/>
                     <p>zakaz rozmawiania podczas jazdy przez telefon komórkowy bez zestawu głośno mówiącego</p>
                 </div>
             </div>

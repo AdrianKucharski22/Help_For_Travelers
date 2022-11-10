@@ -6,7 +6,7 @@ function Finlandia(){
         <div className={'countryPage finlandia'}>
             <nav className={'countryNav borderDiv flex'}>
                 <div className={'flex'}>
-                    <img src={"/flaga-finlandia.png"} alt={'Finlandia'} className={'finlandia'}/>
+                    <img src={"flaga-finlandia.png"} alt={'Finlandia'} className={'finlandia'}/>
                     <h1>Finlandia</h1>
                 </div>
                 <div className={'leftInfo flex'}>
