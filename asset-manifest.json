@@ -1,15 +1,29 @@
 {
   "files": {
     "main.css": "/Help_For_Travelers/static/css/main.d315712e.css",
-    "main.js": "/Help_For_Travelers/static/js/main.efb46d25.js",
+    "main.js": "/Help_For_Travelers/static/js/main.1203406c.js",
     "static/js/787.19e27a4e.chunk.js": "/Help_For_Travelers/static/js/787.19e27a4e.chunk.js",
+    "static/media/90.png": "/Help_For_Travelers/static/media/90.4aa2d2fe48ce71a4af60.png",
+    "static/media/80.jpg": "/Help_For_Travelers/static/media/80.e7505fcffb33febcd49e.jpg",
+    "static/media/130.jpg": "/Help_For_Travelers/static/media/130.2938c4c871d8d42cf4cd.jpg",
+    "static/media/120.jpg": "/Help_For_Travelers/static/media/120.2ff36f0d883494d668fc.jpg",
+    "static/media/100.jpg": "/Help_For_Travelers/static/media/100.6dfb0b5d3042e4945416.jpg",
+    "static/media/140.png": "/Help_For_Travelers/static/media/140.020213f26475718a441f.png",
+    "static/media/110.jpg": "/Help_For_Travelers/static/media/110.f3415f4fa821d4614758.jpg",
+    "static/media/50.webp": "/Help_For_Travelers/static/media/50.7e6081a91c1c1729edbc.webp",
+    "static/media/pasy.webp": "/Help_For_Travelers/static/media/pasy.79ad6f64d3932408903d.webp",
+    "static/media/tel.webp": "/Help_For_Travelers/static/media/tel.ea8042acbbaccee17953.webp",
+    "static/media/helmet.svg": "/Help_For_Travelers/static/media/helmet.0a0ae763c82d6a8b2d04b45244955e73.svg",
     "index.html": "/Help_For_Travelers/index.html",
+    "static/media/flaga-holandia.webp": "/Help_For_Travelers/static/media/flaga-holandia.5eb09ca744d0bd2b005c.webp",
+    "static/media/flaga-wlochy.webp": "/Help_For_Travelers/static/media/flaga-wlochy.fdc0089495aebb775640.webp",
+    "static/media/flaga-austria.webp": "/Help_For_Travelers/static/media/flaga-austria.1a0c30e02770e937ac5d.webp",
     "main.d315712e.css.map": "/Help_For_Travelers/static/css/main.d315712e.css.map",
-    "main.efb46d25.js.map": "/Help_For_Travelers/static/js/main.efb46d25.js.map",
+    "main.1203406c.js.map": "/Help_For_Travelers/static/js/main.1203406c.js.map",
     "787.19e27a4e.chunk.js.map": "/Help_For_Travelers/static/js/787.19e27a4e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d315712e.css",
-    "static/js/main.efb46d25.js"
+    "static/js/main.1203406c.js"
   ]
 }
