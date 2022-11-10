@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Help_For_Travelers/static/css/main.d315712e.css",
-    "main.js": "/Help_For_Travelers/static/js/main.1203406c.js",
+    "main.js": "/Help_For_Travelers/static/js/main.36cecc7b.js",
     "static/js/787.19e27a4e.chunk.js": "/Help_For_Travelers/static/js/787.19e27a4e.chunk.js",
     "static/media/90.png": "/Help_For_Travelers/static/media/90.4aa2d2fe48ce71a4af60.png",
     "static/media/80.jpg": "/Help_For_Travelers/static/media/80.e7505fcffb33febcd49e.jpg",
@@ -19,11 +19,11 @@
     "static/media/flaga-wlochy.webp": "/Help_For_Travelers/static/media/flaga-wlochy.fdc0089495aebb775640.webp",
     "static/media/flaga-austria.webp": "/Help_For_Travelers/static/media/flaga-austria.1a0c30e02770e937ac5d.webp",
     "main.d315712e.css.map": "/Help_For_Travelers/static/css/main.d315712e.css.map",
-    "main.1203406c.js.map": "/Help_For_Travelers/static/js/main.1203406c.js.map",
+    "main.36cecc7b.js.map": "/Help_For_Travelers/static/js/main.36cecc7b.js.map",
     "787.19e27a4e.chunk.js.map": "/Help_For_Travelers/static/js/787.19e27a4e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d315712e.css",
-    "static/js/main.1203406c.js"
+    "static/js/main.36cecc7b.js"
   ]
 }
