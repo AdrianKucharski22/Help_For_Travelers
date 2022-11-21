@@ -36,7 +36,7 @@ function App() {
             <Routes>
                 <Route path={"/Help_For_Travelers"} exact element={<MainPage />} />
                 <Route path={"/Login"} exact element={<Login/>} />
-                <Route path={"/niemcy"} element={<Niemcy />} />
+                <Route path={"/Help_For_Travelers/Niemcy"} element={<Niemcy />} />
                 <Route path={"/holandia"} exact element={<Holandia />} />
                 <Route path={"/czechy"} exact element={<Czechy />} />
                 <Route path={"/wlochy"} exact element={<Wlochy />} />
