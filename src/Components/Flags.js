@@ -1,4 +1,5 @@
 import React from "react"
+import {Link} from "react-router-dom";
 import "../styles/main.scss"
 
 const countryes = ["Holandia","Niemcy","Francja","Wlochy","Czechy","Slowacja","Wegry","Szwecja","Szwajcaria","Slowenia","Portugalia","Norwegia","Lotwa","Litwa","Hiszpania","Grecja","Finlandia","Estonia","Dania","Czarnogora","Chorwacja","Bulgaria","Austria"]
@@ -9,7 +10,7 @@ function Flags() {
                 <>
                     {countryes.map((country, i) =>(
                     <div className={country} key={country}>
-                        <a href={"/"+country}  className={country}>
+                        <Link to={"/"+country}  className={country}>
                             <img src={`${process.env.PUBLIC_URL}/${countresImg[i]}`} alt={country} className={'flag'}/>
                             <p>{country}</p>
                         </a>
